@@ -746,3 +746,14 @@ const struct Tileset gTileset_HallOfFame =
     .callback = NULL,
 };
 
+
+const struct Tileset gTileset_viridianpalette =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_viridianpalette,
+    .palettes = gTilesetPalettes_viridianpalette,
+    .metatiles = gMetatiles_viridianpalette,
+    .metatileAttributes = gMetatileAttributes_viridianpalette,
+    .callback = NULL,
+};

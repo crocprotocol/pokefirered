@@ -1407,3 +1407,22 @@ const u16 gTilesetPalettes_HallOfFame[][16] =
 	INCBIN_U16("data/tilesets/secondary/hall_of_fame/palettes/14.gbapal"),
 	INCBIN_U16("data/tilesets/secondary/hall_of_fame/palettes/15.gbapal"),
 };
+
+const u16 gTilesetPalettes_viridianpalette[][16] =
+{
+    INCBIN_U16("data/tilesets/secondary/viridianpalette/palettes/00.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/viridianpalette/palettes/01.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/viridianpalette/palettes/02.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/viridianpalette/palettes/03.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/viridianpalette/palettes/04.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/viridianpalette/palettes/05.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/viridianpalette/palettes/06.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/viridianpalette/palettes/07.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/viridianpalette/palettes/08.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/viridianpalette/palettes/09.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/viridianpalette/palettes/10.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/viridianpalette/palettes/11.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/viridianpalette/palettes/12.gbapal"),
+};
+
+const u32 gTilesetTiles_viridianpalette[] = INCBIN_U32("data/tilesets/secondary/viridianpalette/tiles.4bpp.lz");

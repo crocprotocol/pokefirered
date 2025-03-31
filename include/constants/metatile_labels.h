@@ -295,6 +295,9 @@
 #define METATILE_ViridianForest_HugeTreeTopMiddle_Grass  0x284
 #define METATILE_ViridianForest_HugeTreeTopMiddle_Mowed  0x281
 
+// gTileset_viridianpalette
+#define METATILE_viridianpalette_OaksLabDoor  0x2CC
+
 // Other
 #define METATILE_Fallarbor_AshGrass                      0x20A
 #define METATILE_Fallarbor_NormalGrass                   0x212
