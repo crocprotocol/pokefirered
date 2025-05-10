@@ -2503,6 +2503,36 @@ s32 CalculateBaseDamage(struct BattlePokemon *attacker, struct BattlePokemon *de
     if (type == TYPE_BUG && attacker->ability == ABILITY_SWARM && attacker->hp <= (attacker->maxHP / 3))
         gBattleMovePower = (150 * gBattleMovePower) / 100;
 
+    // Swarm Skeleton Implementation
+    if (type == TYPE_BUG && attacker->ability == ABILITY_SWARM)
+    {
+        struct Pokemon *tempParty;
+        u16 multiplier = 100;
+        u8 i = 0;
+
+        if (GetBattlerSide(gBattlerAttacker) == B_SIDE_PLAYER)
+            tempParty = gPlayerParty;
+        else
+            tempParty = gEnemyParty;
+
+        for(i = 0; i < PARTY_SIZE; i++)
+        {
+            if (GetMonData(&tempParty[gBattleCommunication[0]], MON_DATA_HP)
+            && GetMonData(&tempParty[gBattleCommunication[0]], MON_DATA_SPECIES_OR_EGG)
+            && GetMonData(&tempParty[gBattleCommunication[0]], MON_DATA_SPECIES_OR_EGG) != SPECIES_EGG
+            && !GetMonData(&tempParty[gBattleCommunication[0]], MON_DATA_STATUS))
+            {
+                continue;
+            }
+
+            if (GetMonData(&tempParty[i], MON_DATA_TYPE1) == TYPE_BUG || GetMonData(&tempParty[i], MON_DATA_TYPE2) == TYPE_BUG)
+            {
+                multiplier += 10;
+            }
+        }
+        gBattleMovePower = (gBattleMovePower * multiplier) / 100;
+    }
+
     // Self-destruct / Explosion cut defense in half
     if (gBattleMoves[gCurrentMove].effect == EFFECT_EXPLOSION)
         defense /= 2;
