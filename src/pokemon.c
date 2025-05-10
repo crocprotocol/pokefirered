@@ -2517,10 +2517,10 @@ s32 CalculateBaseDamage(struct BattlePokemon *attacker, struct BattlePokemon *de
 
         for(i = 0; i < PARTY_SIZE; i++)
         {
-            if (GetMonData(&tempParty[gBattleCommunication[0]], MON_DATA_HP)
-            && GetMonData(&tempParty[gBattleCommunication[0]], MON_DATA_SPECIES_OR_EGG)
-            && GetMonData(&tempParty[gBattleCommunication[0]], MON_DATA_SPECIES_OR_EGG) != SPECIES_EGG
-            && !GetMonData(&tempParty[gBattleCommunication[0]], MON_DATA_STATUS))
+            if (GetMonData(&tempParty[i], MON_DATA_HP)
+            && GetMonData(&tempParty[i], MON_DATA_SPECIES_OR_EGG)
+            && GetMonData(&tempParty[i], MON_DATA_SPECIES_OR_EGG) != SPECIES_EGG
+            && !GetMonData(&tempParty[i], MON_DATA_STATUS))
             {
                 continue;
             }
