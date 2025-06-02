@@ -5070,7 +5070,7 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
-        .party = NO_ITEM_DEFAULT_MOVES(sParty_YoungsterJanice2),
+        .party = NO_ITEM_DEFAULT_MOVES(sParty_LassJanice2),
     },
     [TRAINER_LASS_JANICE_3] = {
         .trainerClass = TRAINER_CLASS_LASS,
@@ -5080,7 +5080,7 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
-        .party = NO_ITEM_DEFAULT_MOVES(sParty_LASSJanice3),
+        .party = NO_ITEM_DEFAULT_MOVES(sParty_LassJanice3),
     },
     [TRAINER_YOUNGSTER_CHAD_4] = {
         .trainerClass = TRAINER_CLASS_YOUNGSTER,
