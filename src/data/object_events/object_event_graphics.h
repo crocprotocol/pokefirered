@@ -231,3 +231,4 @@ const u16 gFieldEffectObjectPic_SmallSparkle[] = INCBIN_U16("graphics/field_effe
 const u16 gFieldEffectPal_SmallSparkle[] = INCBIN_U16("graphics/field_effects/palettes/small_sparkle.gbapal");
 const u16 gFieldEffectObjectPic_Bird[] = INCBIN_U16("graphics/field_effects/pics/bird.4bpp");
 const u16 gObjectEventPic_NurseErika[] = INCBIN_U16("graphics/object_events/pics/people/nurse_erika.4bpp");
+const u16 gObjectEventPic_NurseMisty[] = INCBIN_U16("graphics/object_events/pics/people/nurse_misty.4bpp");

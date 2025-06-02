@@ -1765,3 +1765,16 @@ static const struct SpriteFrameImage sPicTable_NurseErika[] = {
     overworld_frame(gObjectEventPic_NurseErika, 2, 4, 2),
     overworld_frame(gObjectEventPic_NurseErika, 2, 4, 3),
 };
+
+static const struct SpriteFrameImage sPicTable_NurseMisty[] = {
+    overworld_frame(gObjectEventPic_NurseMisty, 2, 4, 0),
+    overworld_frame(gObjectEventPic_NurseMisty, 2, 4, 1),
+    overworld_frame(gObjectEventPic_NurseMisty, 2, 4, 2),
+    overworld_frame(gObjectEventPic_NurseMisty, 2, 4, 0),
+    overworld_frame(gObjectEventPic_NurseMisty, 2, 4, 0),
+    overworld_frame(gObjectEventPic_NurseMisty, 2, 4, 1),
+    overworld_frame(gObjectEventPic_NurseMisty, 2, 4, 1),
+    overworld_frame(gObjectEventPic_NurseMisty, 2, 4, 2),
+    overworld_frame(gObjectEventPic_NurseMisty, 2, 4, 2),
+    overworld_frame(gObjectEventPic_NurseMisty, 2, 4, 3),
+};
