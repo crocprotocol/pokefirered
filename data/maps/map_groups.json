@@ -310,7 +310,8 @@
     "PalletTown_PlayersHouse_1F",
     "PalletTown_PlayersHouse_2F",
     "PalletTown_RivalsHouse",
-    "PalletTown_ProfessorOaksLab"
+    "PalletTown_ProfessorOaksLab",
+    "PalletTown_ChaosRoom"
   ],
   "gMapGroup_IndoorViridian": [
     "ViridianCity_House",
@@ -318,7 +319,8 @@
     "ViridianCity_School",
     "ViridianCity_Mart",
     "ViridianCity_PokemonCenter_1F",
-    "ViridianCity_PokemonCenter_2F"
+    "ViridianCity_PokemonCenter_2F",
+    "OakHouse"
   ],
   "gMapGroup_IndoorPewter": [
     "PewterCity_Museum_1F",

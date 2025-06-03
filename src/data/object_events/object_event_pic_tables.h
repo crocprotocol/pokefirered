@@ -1778,3 +1778,27 @@ static const struct SpriteFrameImage sPicTable_NurseMisty[] = {
     overworld_frame(gObjectEventPic_NurseMisty, 2, 4, 2),
     overworld_frame(gObjectEventPic_NurseMisty, 2, 4, 3),
 };
+
+static const struct SpriteFrameImage sPicTable_BlueMom[] = {
+    overworld_frame(gObjectEventPic_BlueMom, 2, 4, 0),
+    overworld_frame(gObjectEventPic_BlueMom, 2, 4, 1),
+    overworld_frame(gObjectEventPic_BlueMom, 2, 4, 2),
+    overworld_frame(gObjectEventPic_BlueMom, 2, 4, 0),
+    overworld_frame(gObjectEventPic_BlueMom, 2, 4, 0),
+    overworld_frame(gObjectEventPic_BlueMom, 2, 4, 1),
+    overworld_frame(gObjectEventPic_BlueMom, 2, 4, 1),
+    overworld_frame(gObjectEventPic_BlueMom, 2, 4, 2),
+    overworld_frame(gObjectEventPic_BlueMom, 2, 4, 2),
+};
+
+static const struct SpriteFrameImage sPicTable_Mareep[] = {
+    overworld_frame(gObjectEventPic_Mareep, 2, 2, 0),
+    overworld_frame(gObjectEventPic_Mareep, 2, 2, 1),
+    overworld_frame(gObjectEventPic_Mareep, 2, 2, 2),
+    overworld_frame(gObjectEventPic_Mareep, 2, 2, 0),
+    overworld_frame(gObjectEventPic_Mareep, 2, 2, 0),
+    overworld_frame(gObjectEventPic_Mareep, 2, 2, 1),
+    overworld_frame(gObjectEventPic_Mareep, 2, 2, 1),
+    overworld_frame(gObjectEventPic_Mareep, 2, 2, 2),
+    overworld_frame(gObjectEventPic_Mareep, 2, 2, 2),
+};

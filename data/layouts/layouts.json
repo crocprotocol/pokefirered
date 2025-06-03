@@ -4380,6 +4380,30 @@
       "secondary_tileset": "gTileset_MtEmber",
       "border_filepath": "data/layouts/OneIsland_KindleRoad_EmberSpa/border.bin",
       "blockdata_filepath": "data/layouts/OneIsland_KindleRoad_EmberSpa/map.bin"
+    },
+    {
+      "id": "LAYOUT_OAK_HOUSE",
+      "name": "OakHouse_Layout",
+      "width": 13,
+      "height": 10,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_GenericBuilding2",
+      "border_filepath": "data/layouts/OakHouse/border.bin",
+      "blockdata_filepath": "data/layouts/OakHouse/map.bin"
+    },
+    {
+      "id": "LAYOUT_PALLET_TOWN_CHAOS_ROOM",
+      "name": "PalletTown_ChaosRoom_Layout",
+      "width": 13,
+      "height": 10,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_GenericBuilding1",
+      "border_filepath": "data/layouts/PalletTown_ChaosRoom/border.bin",
+      "blockdata_filepath": "data/layouts/PalletTown_ChaosRoom/map.bin"
     }
   ]
 }

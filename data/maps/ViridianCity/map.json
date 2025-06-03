@@ -104,8 +104,8 @@
     {
       "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_YOUNGSTER",
-      "x": 33,
-      "y": 26,
+      "x": 40,
+      "y": 18,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_WANDER_UP_AND_DOWN",
       "movement_range_x": 0,
@@ -192,6 +192,13 @@
       "y": 10,
       "elevation": 0,
       "dest_map": "MAP_PALLET_TOWN_PROFESSOR_OAKS_LAB",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 35,
+      "y": 25,
+      "elevation": 0,
+      "dest_map": "MAP_OAK_HOUSE",
       "dest_warp_id": "0"
     }
   ],

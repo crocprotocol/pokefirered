@@ -342,3 +342,25 @@ PalletTown_RivalsHouse_EventScript_Picture::
 	msgbox PalletTown_RivalsHouse_Text_LovelyAndSweetClefairy, MSGBOX_SIGN
 # 172 "data/maps/PalletTown_RivalsHouse/scripts.pory"
 	end
+
+PalletTown_RivalsHouse_EventScript_Mother::
+# 175 "data/maps/PalletTown_RivalsHouse/scripts.pory"
+	lock
+# 176 "data/maps/PalletTown_RivalsHouse/scripts.pory"
+	faceplayer
+# 177 "data/maps/PalletTown_RivalsHouse/scripts.pory"
+	msgbox PalletTown_RivalsHouse_EventScript_Mother_Text_0
+# 178 "data/maps/PalletTown_RivalsHouse/scripts.pory"
+	msgbox PalletTown_RivalsHouse_EventScript_Mother_Text_1
+# 179 "data/maps/PalletTown_RivalsHouse/scripts.pory"
+	release
+	end
+
+
+PalletTown_RivalsHouse_EventScript_Mother_Text_0:
+# 177 "data/maps/PalletTown_RivalsHouse/scripts.pory"
+	.string "Did you find your pet?$"
+
+PalletTown_RivalsHouse_EventScript_Mother_Text_1:
+# 178 "data/maps/PalletTown_RivalsHouse/scripts.pory"
+	.string "I don't want a repeat of last time...$"

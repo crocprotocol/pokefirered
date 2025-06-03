@@ -171,3 +171,11 @@ PalletTown_RivalsHouse_EventScript_Picture::
 	msgbox PalletTown_RivalsHouse_Text_LovelyAndSweetClefairy, MSGBOX_SIGN
 	end
 `
+script PalletTown_RivalsHouse_EventScript_Mother {
+	lock
+	faceplayer
+	msgbox("Did you find your pet?")
+	msgbox("I don't want a repeat of last time...")
+	release
+	end
+}

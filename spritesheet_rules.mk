@@ -402,3 +402,9 @@ $(OBJEVENTGFXDIR)/people/nurse_erika.4bpp: %.4bpp: %.png
 
 $(OBJEVENTGFXDIR)/people/nurse_misty.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 2 -mheight 4
+
+$(OBJEVENTGFXDIR)/people/blue_mom.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+
+$(OBJEVENTGFXDIR)/pokemon/mareep.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 2

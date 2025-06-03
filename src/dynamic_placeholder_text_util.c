@@ -2,7 +2,7 @@
 #include "gflib.h"
 #include "constants/event_objects.h"
 
-static EWRAM_DATA const u8 *sStringPointers[8] = {0};
+static EWRAM_DATA const u8 *sStringPointers[16] = {0};
 
 #define COLORS(a, b)((a) | (b << 4))
 
@@ -85,6 +85,8 @@ static const u8 sTextColorTable[] =
     [OBJ_EVENT_GFX_CELEBI / 2]                  = COLORS(NPC_TEXT_COLOR_MON, NPC_TEXT_COLOR_MON), // OBJ_EVENT_GFX_KABUTO
     [OBJ_EVENT_GFX_DEOXYS_D / 2]                = COLORS(NPC_TEXT_COLOR_MON, NPC_TEXT_COLOR_MON), // OBJ_EVENT_GFX_DEOXYS_A
     [OBJ_EVENT_GFX_DEOXYS_N / 2]                = COLORS(NPC_TEXT_COLOR_MON, NPC_TEXT_COLOR_NEUTRAL), // OBJ_EVENT_GFX_SS_ANNE
+    [OBJ_EVENT_GFX_NURSE_ERIKA / 2]             = COLORS(NPC_TEXT_COLOR_MALE, NPC_TEXT_COLOR_FEMALE), // OBJ_EVENT_GFX_NURSE_MISTY
+    [OBJ_EVENT_GFX_BLUE_MOM / 2]                = COLORS(NPC_TEXT_COLOR_FEMALE, NPC_TEXT_COLOR_MALE),
 };
 
 void DynamicPlaceholderTextUtil_Reset(void)

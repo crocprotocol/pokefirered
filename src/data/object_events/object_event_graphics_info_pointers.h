@@ -152,6 +152,8 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_DeoxysN;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_SSAnne;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_NurseErika;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_NurseMisty;
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BlueMom;
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Mareep;
 
 
 const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM_OBJ_EVENT_GFX] = {
@@ -308,5 +310,7 @@ const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM
     [OBJ_EVENT_GFX_DEOXYS_N]                 = &gObjectEventGraphicsInfo_DeoxysN,
     [OBJ_EVENT_GFX_SS_ANNE]                  = &gObjectEventGraphicsInfo_SSAnne,
     [OBJ_EVENT_GFX_NURSE_ERIKA]              = &gObjectEventGraphicsInfo_NurseErika,
-    [OBJ_EVENT_GFX_NURSE_MISTY]              = &gObjectEventGraphicsInfo_NurseMisty, 
+    [OBJ_EVENT_GFX_NURSE_MISTY]              = &gObjectEventGraphicsInfo_NurseMisty,
+    [OBJ_EVENT_GFX_BLUE_MOM]                 = &gObjectEventGraphicsInfo_BlueMom, 
+    [OBJ_EVENT_GFX_MAREEP]                   = &gObjectEventGraphicsInfo_Mareep, 
 };
