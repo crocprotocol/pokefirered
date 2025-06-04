@@ -1691,7 +1691,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Lance = {
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Blue = {
     .tileTag = TAG_NONE,
-    .paletteTag = OBJ_EVENT_PAL_TAG_NPC_GREEN,
+    .paletteTag = OBJ_EVENT_PAL_TAG_PLAYER_GREEN,
     .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
     .size = 256,
     .width = 16,

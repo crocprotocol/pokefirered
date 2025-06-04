@@ -79,8 +79,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
-      "flag": "0"
+      "script": "PalletTown_EventScript_MareepRelax",
+      "flag": "FLAG_0x0AF"
     },
     {
       "type": "object",
@@ -93,7 +93,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "PalletTown_EventScript_Pikachu",
       "flag": "0"
     }
   ],

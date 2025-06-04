@@ -1143,7 +1143,6 @@ PalletTown_ProfessorOaksLab_EventScript_ChoseStarter::
 EventScript_GiveNicknameToStarter::
 	setvar VAR_0x8004, 0
 	call EventScript_ChangePokemonNickname
-	goto PalletTown_ProfessorOaksLab_EventScript_RivalPicksStarter
 	end
 
 PalletTown_ProfessorOaksLab_EventScript_RivalPicksStarter::
