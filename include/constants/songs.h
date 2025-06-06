@@ -352,6 +352,8 @@
 #define MUS_TRAINER_TOWER         344 // MUS_T_TOWER
 #define MUS_SLOW_PALLET           345 // MUS_SLOWMASARA
 #define MUS_TEACHY_TV_MENU        346 // MUS_TVNOIZE
+#define SE_LISA                   347 // SE_LISA
+#define SE_LISA_2                 348 // SE_LISA_2
 
 #define MUS_NONE                    0xFFFF
 

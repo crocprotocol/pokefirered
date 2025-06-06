@@ -41,7 +41,24 @@
     }
   ],
   "coord_events": [
-
+    {
+      "type": "trigger",
+      "x": 11,
+      "y": 7,
+      "elevation": 0,
+      "var": "VAR_TEMP_0",
+      "var_value": "0",
+      "script": "PalletTown_ChaosRoom_EventScript_Ghost"
+    },
+    {
+      "type": "trigger",
+      "x": 1,
+      "y": 4,
+      "elevation": 0,
+      "var": "VAR_TEMP_0",
+      "var_value": "0",
+      "script": "PalletTown_ChaosRoom_EventScript_Ghost2"
+    }
   ],
   "bg_events": [
 

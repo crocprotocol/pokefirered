@@ -202,7 +202,7 @@ PalletTown_EventScript_OakTrigger::
 	call_if_eq VAR_TEMP_1, 1, PalletTown_EventScript_OakEnterRight
 	delay 30
 	clearflag FLAG_HIDE_OAK_IN_HIS_LAB
-	setflag FLAG_0x0AF
+	setflag FLAG_HIDE_MAREEP_IN_PALLET_TOWN
 	setvar VAR_MAP_SCENE_PALLET_TOWN_OAK, 1
 	setflag FLAG_HIDE_OAK_IN_PALLET_TOWN
 	setvar VAR_MAP_SCENE_PALLET_TOWN_PROFESSOR_OAKS_LAB, 1

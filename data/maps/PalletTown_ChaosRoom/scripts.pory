@@ -1,0 +1,18 @@
+raw `
+PalletTown_ChaosRoom_MapScripts::
+	.byte 0
+`
+
+script PalletTown_ChaosRoom_EventScript_Ghost{
+    lock
+    playse(SE_LISA)
+    release
+    end
+}
+
+script PalletTown_ChaosRoom_EventScript_Ghost2{
+    lock
+    playse(SE_LISA_2)
+    release
+    end
+}

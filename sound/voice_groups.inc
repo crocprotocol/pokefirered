@@ -8071,3 +8071,11 @@ voicegroup190::
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0
 	voice_directsound_no_resample 64, 104, DirectSoundWaveData_ethnic_flavours_atarigane, 255, 0, 255, 0
 	voice_directsound 63, 64, DirectSoundWaveData_sc88pro_taiko, 255, 0, 255, 0
+
+	.align 2
+voicegroup191::
+	voice_keysplit_all voicegroup001
+	voice_keysplit voicegroup005, KeySplitTable1
+	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0
+	voice_directsound 60, 104, DirectSoundWaveData_lisa, 255, 0, 255, 0
+	voice_directsound 60, -104, DirectSoundWaveData_lisa_2, 255, 0, 255, 0

@@ -407,7 +407,7 @@ PalletTown_EventScript_OakTrigger::
 # 204 "data/maps/PalletTown/scripts.pory"
 	clearflag FLAG_HIDE_OAK_IN_HIS_LAB
 # 205 "data/maps/PalletTown/scripts.pory"
-	setflag FLAG_0x0AF
+	setflag FLAG_HIDE_MAREEP_IN_PALLET_TOWN
 # 206 "data/maps/PalletTown/scripts.pory"
 	setvar VAR_MAP_SCENE_PALLET_TOWN_OAK, 1
 # 207 "data/maps/PalletTown/scripts.pory"
