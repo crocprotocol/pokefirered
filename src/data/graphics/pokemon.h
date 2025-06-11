@@ -2831,3 +2831,13 @@ const u8 gMonIcon_UnownExclamationMark[] = INCBIN_U8("graphics/pokemon/unown/exc
 const u32 gMonFrontPic_UnownQuestionMark[] = INCBIN_U32("graphics/pokemon/unown/question_mark/front.4bpp.lz");
 const u32 gMonBackPic_UnownQuestionMark[] = INCBIN_U32("graphics/pokemon/unown/question_mark/back.4bpp.lz");
 const u8 gMonIcon_UnownQuestionMark[] = INCBIN_U8("graphics/pokemon/unown/question_mark/icon.4bpp");
+
+const u32 gMonFrontPic_Mewthree[] = INCBIN_U32("graphics/pokemon/mewthree/front.4bpp.lz");
+const u32 gMonPalette_Mewthree[] = INCBIN_U32("graphics/pokemon/mewthree/normal.gbapal.lz");
+
+const u32 gMonFrontPic_Stitch[] = INCBIN_U32("graphics/pokemon/stitch/front.4bpp.lz");
+const u32 gMonPalette_Stitch[] = INCBIN_U32("graphics/pokemon/stitch/normal.gbapal.lz");
+const u32 gMonBackPic_Stitch[] = INCBIN_U32("graphics/pokemon/stitch/back.4bpp.lz");
+const u32 gMonShinyPalette_Stitch[] = INCBIN_U32("graphics/pokemon/stitch/shiny.gbapal.lz");
+const u8 gMonIcon_Stitch[] = INCBIN_U8("graphics/pokemon/stitch/icon.4bpp");
+const u8 gMonFootprint_Stitch[] = INCBIN_U8("graphics/pokemon/stitch/footprint.1bpp");

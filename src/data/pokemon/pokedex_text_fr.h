@@ -2718,3 +2718,8 @@ const u8 gDeoxysPokedexText[] = _(
     "altering its appearance.");
 
 const u8 gDeoxysPokedexTextUnused[] = _("");
+
+const u8 gStitchPokedexText[] = _(
+    "Also known as experiment 626,\n"
+    "it is considered the ultimate\n"
+    "destructive lifeform.");

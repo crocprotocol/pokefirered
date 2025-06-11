@@ -1,7 +1,7 @@
 PalletTown_RivalsHouse_Text_HiBrothersAtLab::
     .string "DAISY: Hi, {PLAYER}!\p"
-    .string "My brother, {RIVAL}, is out at\n"
-    .string "Grandpa's LAB.$"
+    .string "Can I come with you to see\n"
+    .string "Grandpa?$"
 
 PalletTown_RivalsHouse_Text_HeardYouBattledRival::
     .string "DAISY: {PLAYER}, I heard you had\n"
@@ -12,7 +12,8 @@ PalletTown_RivalsHouse_Text_ErrandForGrandpaThisWillHelp::
     .string "Grandpa asked you to run an\n"
     .string "errand?\p"
     .string "Gee, that's lazy of him.\n"
-    .string "Here, this will help you.$"
+    .string "The map in your room is too messy\n"
+    .string "Here, take mine.$"
 
 PalletTown_RivalsHouse_Text_ReceivedTownMapFromDaisy::
     .string "{PLAYER} received a TOWN MAP\n"
@@ -23,9 +24,9 @@ PalletTown_RivalsHouse_Text_DontHaveSpaceForThis::
     .string "your BAG.$"
 
 PalletTown_RivalsHouse_Text_ExplainTownMap::
-    .string "You can use the TOWN MAP to find\n"
-    .string "out where you are, or check the\l"
-    .string "names of places.$"
+    .string "Now you'll remember me when\n"
+    .string "you are far away.\l"
+    .string "You better not forget to visit!$"
 
 PalletTown_RivalsHouse_Text_PleaseGiveMonsRest::
     .string "DAISY: Just like people, POKéMON\n"

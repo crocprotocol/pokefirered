@@ -104,3 +104,136 @@ EventScript_PalletTown_PlayersHouse_2F_ShutDownPC::
 	releaseall
 # 53 "data/maps/PalletTown_PlayersHouse_2F/scripts.pory"
 	end
+
+PalletTown_PlayersHouse_2F_EventScript_Bookshelf1::
+# 56 "data/maps/PalletTown_PlayersHouse_2F/scripts.pory"
+	lock
+# 57 "data/maps/PalletTown_PlayersHouse_2F/scripts.pory"
+	msgbox PalletTown_PlayersHouse_2F_EventScript_Bookshelf1_Text_0
+# 58 "data/maps/PalletTown_PlayersHouse_2F/scripts.pory"
+	release
+	end
+
+
+PalletTown_PlayersHouse_2F_EventScript_Bookshelf2::
+# 63 "data/maps/PalletTown_PlayersHouse_2F/scripts.pory"
+	lock
+# 64 "data/maps/PalletTown_PlayersHouse_2F/scripts.pory"
+	msgbox PalletTown_PlayersHouse_2F_EventScript_Bookshelf2_Text_0
+# 65 "data/maps/PalletTown_PlayersHouse_2F/scripts.pory"
+	release
+	end
+
+
+PalletTown_PlayersHouse_2F_EventScript_MewSketch::
+# 70 "data/maps/PalletTown_PlayersHouse_2F/scripts.pory"
+	lock
+# 71 "data/maps/PalletTown_PlayersHouse_2F/scripts.pory"
+	showmonpic SPECIES_MEWTHREE, 10, 3
+# 72 "data/maps/PalletTown_PlayersHouse_2F/scripts.pory"
+	msgbox PalletTown_PlayersHouse_2F_EventScript_MewSketch_Text_0
+# 73 "data/maps/PalletTown_PlayersHouse_2F/scripts.pory"
+	waitmessage
+# 74 "data/maps/PalletTown_PlayersHouse_2F/scripts.pory"
+	hidemonpic
+# 75 "data/maps/PalletTown_PlayersHouse_2F/scripts.pory"
+	release
+	end
+
+
+PalletTown_PlayersHouse_2F_EventScript_BirthdayPlush::
+# 80 "data/maps/PalletTown_PlayersHouse_2F/scripts.pory"
+	lock
+# 81 "data/maps/PalletTown_PlayersHouse_2F/scripts.pory"
+	msgbox PalletTown_PlayersHouse_2F_EventScript_BirthdayPlush_Text_0
+# 82 "data/maps/PalletTown_PlayersHouse_2F/scripts.pory"
+	release
+	end
+
+
+PalletTown_PlayersHouse_2F_EventScript_KantoMap::
+# 87 "data/maps/PalletTown_PlayersHouse_2F/scripts.pory"
+	lock
+# 88 "data/maps/PalletTown_PlayersHouse_2F/scripts.pory"
+	msgbox PalletTown_PlayersHouse_2F_EventScript_KantoMap_Text_0
+# 89 "data/maps/PalletTown_PlayersHouse_2F/scripts.pory"
+	release
+	end
+
+
+PalletTown_PlayersHouse_2F_EventScript_MomTrigger::
+# 94 "data/maps/PalletTown_PlayersHouse_2F/scripts.pory"
+	compare VAR_MAP_SCENE_PLAYERHOUSE_2F, 0
+	goto_if_eq PalletTown_PlayersHouse_2F_EventScript_MomTrigger_1
+# 104 "data/maps/PalletTown_PlayersHouse_2F/scripts.pory"
+	lock
+# 105 "data/maps/PalletTown_PlayersHouse_2F/scripts.pory"
+	release
+	end
+
+PalletTown_PlayersHouse_2F_EventScript_MomTrigger_1:
+# 95 "data/maps/PalletTown_PlayersHouse_2F/scripts.pory"
+	lock
+# 96 "data/maps/PalletTown_PlayersHouse_2F/scripts.pory"
+	call PalletTown_PlayersHouse_2F_EventScript_MomShake
+# 97 "data/maps/PalletTown_PlayersHouse_2F/scripts.pory"
+	textcolor NPC_TEXT_COLOR_FEMALE
+# 98 "data/maps/PalletTown_PlayersHouse_2F/scripts.pory"
+	msgbox PalletTown_PlayersHouse_2F_EventScript_MomTrigger_Text_0
+# 99 "data/maps/PalletTown_PlayersHouse_2F/scripts.pory"
+	call PalletTown_PlayersHouse_2F_EventScript_MomShake
+# 100 "data/maps/PalletTown_PlayersHouse_2F/scripts.pory"
+	delay 60
+# 101 "data/maps/PalletTown_PlayersHouse_2F/scripts.pory"
+	release
+	end
+
+
+PalletTown_PlayersHouse_2F_EventScript_MomShake::
+# 111 "data/maps/PalletTown_PlayersHouse_2F/scripts.pory"
+	delay 30
+# 112 "data/maps/PalletTown_PlayersHouse_2F/scripts.pory"
+	setvar VAR_0x8004, 2
+# 113 "data/maps/PalletTown_PlayersHouse_2F/scripts.pory"
+	setvar VAR_0x8005, 6
+# 114 "data/maps/PalletTown_PlayersHouse_2F/scripts.pory"
+	setvar VAR_0x8006, 4
+# 115 "data/maps/PalletTown_PlayersHouse_2F/scripts.pory"
+	setvar VAR_0x8007, 4
+# 116 "data/maps/PalletTown_PlayersHouse_2F/scripts.pory"
+	special ShakeScreen
+# 117 "data/maps/PalletTown_PlayersHouse_2F/scripts.pory"
+	waitstate
+# 118 "data/maps/PalletTown_PlayersHouse_2F/scripts.pory"
+	setvar VAR_MAP_SCENE_PLAYERHOUSE_2F, 1
+	return
+
+
+PalletTown_PlayersHouse_2F_EventScript_Bookshelf1_Text_0:
+# 57 "data/maps/PalletTown_PlayersHouse_2F/scripts.pory"
+	.string "There is a book on wool upkeep.$"
+
+PalletTown_PlayersHouse_2F_EventScript_Bookshelf2_Text_0:
+# 64 "data/maps/PalletTown_PlayersHouse_2F/scripts.pory"
+	.string "The entire shelf is filled with\n"
+	.string "encylopedias about POKéMON.$"
+
+PalletTown_PlayersHouse_2F_EventScript_MewSketch_Text_0:
+# 72 "data/maps/PalletTown_PlayersHouse_2F/scripts.pory"
+	.string "An old picture.\n"
+	.string "...\l"
+	.string "...\l"
+	.string "You don't remember when you drew it.$"
+
+PalletTown_PlayersHouse_2F_EventScript_BirthdayPlush_Text_0:
+# 81 "data/maps/PalletTown_PlayersHouse_2F/scripts.pory"
+	.string "Happy birthday Blue!\l--Gramps$"
+
+PalletTown_PlayersHouse_2F_EventScript_KantoMap_Text_0:
+# 88 "data/maps/PalletTown_PlayersHouse_2F/scripts.pory"
+	.string "Your eyes are drawn to a bright red\n"
+	.string "circle surrounding LAVENDER TOWN.$"
+
+PalletTown_PlayersHouse_2F_EventScript_MomTrigger_Text_0:
+# 98 "data/maps/PalletTown_PlayersHouse_2F/scripts.pory"
+	.string "BLUE!!!!$"

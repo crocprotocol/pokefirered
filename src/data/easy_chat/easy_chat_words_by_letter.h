@@ -1569,6 +1569,7 @@ static const u16 sEasyChatWordsByLetter_S[] = {
     EC_POKEMON(STEELIX),
     EC_WORD_STENCH,
     EC_WORD_STICKY_HOLD,
+    EC_POKEMON(STITCH),
     EC_MOVE2(STOCKPILE),
     EC_MOVE2(STOMP),
     EC_WORD_STOP,
@@ -2042,7 +2043,7 @@ static const struct EasyChatWordsByLetter sEasyChatWordsByLetterPointers[] = {
     },
     {
         .words = sEasyChatWordsByLetter_S,
-        .numWords = 262,
+        .numWords = 263,
     },
     {
         .words = sEasyChatWordsByLetter_T,

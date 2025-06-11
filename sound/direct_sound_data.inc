@@ -1915,3 +1915,11 @@ DirectSoundWaveData_lisa::
 	.align 2
 DirectSoundWaveData_lisa_2::
 	.incbin "sound/direct_sound_samples/lisa_2.bin"
+
+	.align 2
+Cry_Mewthree:: 
+   .incbin "sound/direct_sound_samples/cries/mewthree.bin"
+
+	.align 2
+Cry_Stitch:: 
+   .incbin "sound/direct_sound_samples/cries/stitch.bin"

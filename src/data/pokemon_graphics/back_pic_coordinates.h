@@ -2200,5 +2200,10 @@ const struct MonCoords gMonBackPicCoords[] =
         .size = MON_COORDS_SIZE(32, 56),
         .y_offset = 6,
     },
+    [SPECIES_STITCH] =
+    {
+        .size = MON_COORDS_SIZE(32, 56),
+        .y_offset = 6,
+    },
 };
 

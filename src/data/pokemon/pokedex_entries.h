@@ -5030,4 +5030,16 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerScale = 337,
         .trainerOffset = 2,
     },
+    [NATIONAL_DEX_STITCH] =
+    {
+        .categoryName = _("FLUFFY"),
+        .height = 9,
+        .weight = 227,
+        .description = gStitchPokedexText,
+        .unusedDescription = gDeoxysPokedexTextUnused,
+        .pokemonScale = 293,
+        .pokemonOffset = 0,
+        .trainerScale = 337,
+        .trainerOffset = 2,
+    },
 };

@@ -17,7 +17,7 @@
 #include "data.h"
 #include "constants/songs.h"
 
-#define INTRO_SPECIES SPECIES_NIDORAN_F
+#define INTRO_SPECIES SPECIES_STITCH
 
 enum
 {
@@ -336,6 +336,18 @@ enum
     PIKACHU_INTRO_PAGE_1,
     PIKACHU_INTRO_PAGE_2,
     PIKACHU_INTRO_PAGE_3,
+    PIKACHU_INTRO_PAGE_4,
+    PIKACHU_INTRO_PAGE_5,
+    PIKACHU_INTRO_PAGE_6,
+    PIKACHU_INTRO_PAGE_7,
+    PIKACHU_INTRO_PAGE_8,
+    PIKACHU_INTRO_PAGE_9,
+    PIKACHU_INTRO_PAGE_10,
+    PIKACHU_INTRO_PAGE_11,
+    PIKACHU_INTRO_PAGE_12,
+    PIKACHU_INTRO_PAGE_13,
+    PIKACHU_INTRO_PAGE_14,
+    PIKACHU_INTRO_PAGE_15,
     NUM_PIKACHU_INTRO_PAGES,
 };
 
@@ -343,7 +355,20 @@ static const u8 *const sPikachuIntro_Strings[NUM_PIKACHU_INTRO_PAGES] =
 {
     [PIKACHU_INTRO_PAGE_1] = gPikachuIntro_Text_Page1,
     [PIKACHU_INTRO_PAGE_2] = gPikachuIntro_Text_Page2,
-    [PIKACHU_INTRO_PAGE_3] = gPikachuIntro_Text_Page3
+    [PIKACHU_INTRO_PAGE_3] = gPikachuIntro_Text_Page3,
+    [PIKACHU_INTRO_PAGE_4] = gPikachuIntro_Text_Page4,
+    [PIKACHU_INTRO_PAGE_5] = gPikachuIntro_Text_Page5,
+    [PIKACHU_INTRO_PAGE_6] = gPikachuIntro_Text_Page6,
+    [PIKACHU_INTRO_PAGE_7] = gPikachuIntro_Text_Page7,
+    [PIKACHU_INTRO_PAGE_8] = gPikachuIntro_Text_Page8,
+    [PIKACHU_INTRO_PAGE_9] = gPikachuIntro_Text_Page9,
+    [PIKACHU_INTRO_PAGE_10] = gPikachuIntro_Text_Page10,
+    [PIKACHU_INTRO_PAGE_11] = gPikachuIntro_Text_Page11,
+    [PIKACHU_INTRO_PAGE_12] = gPikachuIntro_Text_Page12,
+    [PIKACHU_INTRO_PAGE_13] = gPikachuIntro_Text_Page13,
+    [PIKACHU_INTRO_PAGE_14] = gPikachuIntro_Text_Page14,
+    [PIKACHU_INTRO_PAGE_15] = gPikachuIntro_Text_Page15,
+    
 };
 
 #define GFX_TAG_PLATFORM     0x1000

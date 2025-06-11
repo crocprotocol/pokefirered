@@ -513,6 +513,8 @@ static const u16 sSpeciesToHoennPokedexNum[NUM_SPECIES - 1] =
     SPECIES_TO_HOENN(JIRACHI),
     SPECIES_TO_HOENN(DEOXYS),
     SPECIES_TO_HOENN(CHIMECHO),
+    SPECIES_TO_HOENN(MEWTHREE),
+    SPECIES_TO_HOENN(STITCH),
 };
 
  // Assigns all species to the National Dex Index (Summary No. for National Dex)
@@ -929,6 +931,8 @@ static const u16 sSpeciesToNationalPokedexNum[NUM_SPECIES - 1] =
     SPECIES_TO_NATIONAL(JIRACHI),
     SPECIES_TO_NATIONAL(DEOXYS),
     SPECIES_TO_NATIONAL(CHIMECHO),
+    SPECIES_TO_NATIONAL(MEWTHREE),
+    SPECIES_TO_NATIONAL(STITCH),
 };
 
 // Assigns all Hoenn Dex Indexes to a National Dex Index
@@ -1345,6 +1349,8 @@ static const u16 sHoennToNationalOrder[NUM_SPECIES - 1] =
     HOENN_TO_NATIONAL(OLD_UNOWN_X),
     HOENN_TO_NATIONAL(OLD_UNOWN_Y),
     HOENN_TO_NATIONAL(OLD_UNOWN_Z),
+    HOENN_TO_NATIONAL(MEWTHREE),
+    HOENN_TO_NATIONAL(STITCH),
 };
 
 static const struct SpindaSpot sSpindaSpotGraphics[] =

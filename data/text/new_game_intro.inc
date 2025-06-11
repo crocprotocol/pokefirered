@@ -181,8 +181,77 @@ gPikachuIntro_Text_Page3::
     .string "Through your adventure, we hope\n"
     .string "that you will interact with all sorts\n"
     .string "of people and achieve personal growth.\n"
-    .string "That is our biggest objective.\n"
+    .string "That is our biggest objective.$"
+
+gPikachuIntro_Text_Page4::
+    .string "And yet...\n"
+    .string "a curse remains...\n"
+    .string "$"
+
+gPikachuIntro_Text_Page5::
+    .string "For you have failed in your objective,\n"
+    .string "as I cannot be saved from my flame;\n"
+    .string "so, I will immolate to keep you safe\n"
+    .string "and warm, to ward against frozen air.$"
+
+gPikachuIntro_Text_Page6::
+    .string "The shooting star fractured as it\n"
+    .string "began to blaze bright, each pulse\n"
+    .string "of light beating with fiery,\n"    
+    .string "passionate sight.$"
+
+
+gPikachuIntro_Text_Page7::
+    .string "...\n"
+    .string "...\n"
     .string "\n"
+    .string "My soul burns a FireRed.\n"
+    .string " What about yours?$"
+
+gPikachuIntro_Text_Page8::
+    .string "Thereafter, ballistic flares branched\n"
+    .string "off, broke, and lodged themselves\n"
+    .string "right between three broken branches,\n"
+    .string "settling in their hearth, and\n"
+    .string "spreading the heat.$"
+
+gPikachuIntro_Text_Page9::
+    .string "Hopeful embers flickered within the\n"
+    .string "still hearts of wanderers lost\n"
+    .string "to the tundra's frigid solitude.\n"
+    .string "$"
+
+gPikachuIntro_Text_Page10::
+    .string "The star then reflected for a spell:\n"    
+    .string "someone else can nurture each nascent\n"
+    .string "kindling into its own grand pyre;\n"
+    .string "I still need to cross...$"
+
+gPikachuIntro_Text_Page11::
+    .string "\n"
+    .string "T H E\n"
+    .string "\n"
+    .string "I M P E N E T R A B L E\n"
+    .string "\n"
+    .string "D A R K\n"
+    .string "$"
+
+gPikachuIntro_Text_Page12::
+    .string "...\n"
+    .string "...\n"
+    .string "\n"
+    .string "I wonder...$"
+
+gPikachuIntro_Text_Page13::
+    .string "If you had the chance to leave behind\n"
+    .string "everyone you loved, who loved you, to\n"
+    .string "start all over, that you might fish\n"
+    .string "for a place you could be called king.$"
+
+gPikachuIntro_Text_Page14::
+    .string "...Would you fledge the nest?$"
+
+gPikachuIntro_Text_Page15::
     .string "Press the A Button, and let your\n"
     .string "adventure begin!$"
 

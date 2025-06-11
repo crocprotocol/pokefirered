@@ -52,3 +52,68 @@ EventScript_PalletTown_PlayersHouse_2F_ShutDownPC::
 	releaseall
 	end
 `
+script PalletTown_PlayersHouse_2F_EventScript_Bookshelf1 {
+	lock
+	msgbox("There is a book on wool upkeep.")
+	release
+	end
+}
+
+script PalletTown_PlayersHouse_2F_EventScript_Bookshelf2 {
+	lock
+	msgbox(format("The entire shelf is filled with encylopedias about POKéMON."))
+	release
+	end
+}
+
+script PalletTown_PlayersHouse_2F_EventScript_MewSketch {
+	lock
+	showmonpic(SPECIES_MEWTHREE, 10, 3)
+	msgbox(format("An old picture.\N...\N...\N You don't remember when you drew it."))
+	waitmessage
+	hidemonpic
+	release
+	end
+}
+
+script PalletTown_PlayersHouse_2F_EventScript_BirthdayPlush {
+	lock
+	msgbox("Happy birthday Blue!\l--Gramps")
+	release
+	end
+}
+
+script PalletTown_PlayersHouse_2F_EventScript_KantoMap {
+	lock
+	msgbox(format("Your eyes are drawn to a bright red circle surrounding LAVENDER TOWN."))
+	release
+	end
+}
+
+script PalletTown_PlayersHouse_2F_EventScript_MomTrigger {
+	if(var(VAR_MAP_SCENE_PLAYERHOUSE_2F) == 0)
+	{lock
+	call(PalletTown_PlayersHouse_2F_EventScript_MomShake)
+	textcolor(NPC_TEXT_COLOR_FEMALE)
+	msgbox("BLUE!!!!")
+	call(PalletTown_PlayersHouse_2F_EventScript_MomShake)
+	delay(60)
+	release
+	end}
+	else{
+	lock
+	release
+	end
+	}
+}
+
+script PalletTown_PlayersHouse_2F_EventScript_MomShake {
+	delay(30)
+	setvar(VAR_0x8004, 2)
+	setvar(VAR_0x8005, 6)
+	setvar(VAR_0x8006, 4)
+	setvar(VAR_0x8007, 4)
+	special(ShakeScreen)
+	waitstate
+	setvar(VAR_MAP_SCENE_PLAYERHOUSE_2F, 1)
+}
