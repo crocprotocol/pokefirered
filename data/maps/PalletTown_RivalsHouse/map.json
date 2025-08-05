@@ -89,7 +89,15 @@
     }
   ],
   "coord_events": [
-
+    {
+      "type": "trigger",
+      "x": 10,
+      "y": 3,
+      "elevation": 0,
+      "var": "VAR_0x4100",
+      "var_value": "1",
+      "script": "PalletTown_RivalsHouse_EventScript_MomLecture"
+    }
   ],
   "bg_events": [
     {

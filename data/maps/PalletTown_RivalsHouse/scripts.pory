@@ -1,11 +1,13 @@
 raw `
 .equ LOCALID_DAISY,    1
 .equ LOCALID_TOWN_MAP, 2
+.equ LOCALID_MOM,      3
 
 .equ RECEIVED_TOWN_MAP, VAR_TEMP_1
 
 PalletTown_RivalsHouse_MapScripts::
 	map_script MAP_SCRIPT_ON_TRANSITION, PalletTown_RivalsHouse_OnTransition
+	map_script MAP_SCRIPT_ON_LOAD, PalletTown_RivalsHouse_OnLoad
 	.byte 0
 
 PalletTown_RivalsHouse_OnTransition::
@@ -174,8 +176,51 @@ PalletTown_RivalsHouse_EventScript_Picture::
 script PalletTown_RivalsHouse_EventScript_Mother {
 	lock
 	faceplayer
+	if(var(VAR_MAP_SCENE_RIVAL_HOUSE_BLUE_MOM) == 0){
+	msgbox("...")
+	release
+	end
+	}
+	elif(var(VAR_MAP_SCENE_RIVAL_HOUSE_BLUE_MOM) == 1){
 	msgbox("Did you find your pet?")
 	msgbox("I don't want a repeat of last time...")
 	release
 	end
+	}
+}
+
+script PalletTown_RivalsHouse_EventScript_MoveMom {
+	setobjectxyperm (LOCALID_MOM, 9, 2)
+	setobjectmovementtype (LOCALID_MOM, MOVEMENT_TYPE_FACE_RIGHT)
+	
+}
+
+script PalletTown_RivalsHouse_EventScript_MomLecture {
+	if(var(VAR_0x4100) == 1)
+	{lock
+	textcolor(NPC_TEXT_COLOR_FEMALE)
+	msgbox(format("You forgot this."))
+	msgbox(format("I told you about it a hundred times."))
+	msgbox(format("This is exactly why I don't trust you \nto be in Saffron City on your own!"))
+	msgbox(format("You need to be more responsible or you'll never amount to anything!"))
+	msgbox(format("Please don't forget to give this to gramps, at least."))
+	applymovement(3, MomGiveMovement)
+	playfanfare(MUS_OBTAIN_KEY_ITEM)
+	giveitem_msg(format("{PLAYER} received OAK'S PARCEL from MOM."), ITEM_OAKS_PARCEL)
+	setvar(VAR_0x4100, 2)
+	setvar(VAR_MAP_SCENE_RIVAL_HOUSE_BLUE_MOM, 1)
+	release
+	end
+	}
+}
+
+script PalletTown_RivalsHouse_OnLoad {
+	if(var(VAR_0x4100) == 1)
+	{call (PalletTown_RivalsHouse_EventScript_MoveMom)
+	}
+}
+
+movement MomGiveMovement {
+	walk_down
+	face_right
 }

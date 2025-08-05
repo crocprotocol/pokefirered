@@ -184,57 +184,63 @@ gPikachuIntro_Text_Page3::
     .string "That is our biggest objective.$"
 
 gPikachuIntro_Text_Page4::
-    .string "And yet...\n"
-    .string "a curse remains...\n"
-    .string "$"
+    .string "Our present tale, however,\n"
+    .string "is borne from this objective;\n"
+    .string "which you have thoroughly failed.$"
+    .string "\n"
+    .string "As the boy could not be\n"
+    .string "saved from his flame.$"
+
 
 gPikachuIntro_Text_Page5::
-    .string "For you have failed in your objective,\n"
-    .string "as I cannot be saved from my flame;\n"
-    .string "so, I will immolate to keep you safe\n"
-    .string "and warm, to ward against frozen air.$"
+    .string "So, I will immolate in your place,\n"
+    .string "to keep your charge both\n"
+    .string "safe and warm, and ward against\n"
+    .string "the frozen air.$"
+
 
 gPikachuIntro_Text_Page6::
-    .string "The shooting star fractured as it\n"
-    .string "began to blaze bright, each pulse\n"
-    .string "of light beating with fiery,\n"    
-    .string "passionate sight.$"
+    .string "From birth, we knew he was\n"
+    .string "supposed to be given a choice:\n"
+    .string "\n"
+    .string "To leave everything behind him,\n"
+    .string "and find a new world,\n"
+    .string "abandoning the ones who loved him.\n"
+    .string "for others he may love back.\n"
 
 
 gPikachuIntro_Text_Page7::
     .string "...\n"
     .string "...\n"
-    .string "\n"
-    .string "My soul burns a FireRed.\n"
-    .string " What about yours?$"
+    .string "Of course, one who is not intimate\n"
+    .string "with the nature of love will\n"
+    .string "presume every touch loveless.$"
 
 gPikachuIntro_Text_Page8::
-    .string "Thereafter, ballistic flares branched\n"
-    .string "off, broke, and lodged themselves\n"
-    .string "right between three broken branches,\n"
-    .string "settling in their hearth, and\n"
-    .string "spreading the heat.$"
+    .string "Perhaps that is the reason.\n"
+    .string "The reason why his choice,\n"
+    .string "his ordained birthright,\n"
+    .string "failed to chance upon him.$"
 
 gPikachuIntro_Text_Page9::
-    .string "Hopeful embers flickered within the\n"
-    .string "still hearts of wanderers lost\n"
-    .string "to the tundra's frigid solitude.\n"
-    .string "$"
+    .string "And why instead we watched him\n"
+    .string "horrifically enrapture himself\n"
+    .string "with natural order, and by extension,\n"
+    .string "the ghosts who hitherto did him haunt.$"
 
 gPikachuIntro_Text_Page10::
-    .string "The star then reflected for a spell:\n"    
-    .string "someone else can nurture each nascent\n"
-    .string "kindling into its own grand pyre;\n"
-    .string "I still need to cross...$"
+    .string "For you see, there exists comfort\n"
+    .string "amongst the damned, forever grounded;\n"
+    .string "even if he himself was meant to rise.\n"
+    .string "$"
+
 
 gPikachuIntro_Text_Page11::
-    .string "\n"
-    .string "T H E\n"
-    .string "\n"
-    .string "I M P E N E T R A B L E\n"
-    .string "\n"
-    .string "D A R K\n"
+    .string "And so, when that time did arrive,\n"
+    .string "he found that the\n"
+    .string "Earth had risen with him.\n"
     .string "$"
+
 
 gPikachuIntro_Text_Page12::
     .string "...\n"
@@ -245,8 +251,8 @@ gPikachuIntro_Text_Page12::
 gPikachuIntro_Text_Page13::
     .string "If you had the chance to leave behind\n"
     .string "everyone you loved, who loved you, to\n"
-    .string "start all over, that you might fish\n"
-    .string "for a place you could be called king.$"
+    .string "start all over, to fish for a place\n"
+    .string "with people who might call you king.$"
 
 gPikachuIntro_Text_Page14::
     .string "...Would you fledge the nest?$"

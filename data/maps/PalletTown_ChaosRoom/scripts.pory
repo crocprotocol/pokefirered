@@ -1,6 +1,5 @@
 raw `
 PalletTown_ChaosRoom_MapScripts::
-	.byte 0
 `
 
 script PalletTown_ChaosRoom_EventScript_Ghost{
@@ -13,6 +12,27 @@ script PalletTown_ChaosRoom_EventScript_Ghost{
 script PalletTown_ChaosRoom_EventScript_Ghost2{
     lock
     playse(SE_LISA_2)
+    release
+    end
+}
+
+script PalletTown_ChaosRoom_EventScript_SoundwavePlayMusic{
+    lock
+    message("What do you want to hear?")
+    multichoice(25, 5, MULTICHOICE_MUSIC_BOX, 0)
+    closemessage
+    if (var(VAR_RESULT) == 0){
+    playbgm(MUS_CELADON, 0)
+    }
+    elif (var(VAR_RESULT) == 1){
+    playbgm(MUS_DESERT_STORM, 0)
+    }
+    elif (var(VAR_RESULT) == 2){
+    playbgm(MUS_MIDNAS_THEME, 0)
+    }
+    elif (var(VAR_RESULT) == 3){
+    playbgm(MUS_LEGEND_DRAGON, 0)
+    }
     release
     end
 }

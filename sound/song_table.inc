@@ -348,6 +348,9 @@ gSongTable::
 	song mus_teachy_tv_menu, 0, 0
 	song se_lisa, 2, 2
 	song se_lisa_2, 2, 2
+	song mus_desert_storm, 0, 0
+	song mus_midnas_theme, 0, 0
+	song mus_legend_dragon, 0, 0
 
 dummy_song_header:
 	.byte 0, 0, 0, 0

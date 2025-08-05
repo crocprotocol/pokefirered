@@ -354,6 +354,9 @@
 #define MUS_TEACHY_TV_MENU        346 // MUS_TVNOIZE
 #define SE_LISA                   347 // SE_LISA
 #define SE_LISA_2                 348 // SE_LISA_2
+#define MUS_DESERT_STORM          349 // MUS_DESERT_STORM
+#define MUS_MIDNAS_THEME          350 // MUS_MIDNAS_THEME
+#define MUS_LEGEND_DRAGON         351 // MUS_LEGEND_DRAGON
 
 #define MUS_NONE                    0xFFFF
 

@@ -206,6 +206,8 @@ PalletTown_PlayersHouse_2F_EventScript_MomShake::
 	waitstate
 # 118 "data/maps/PalletTown_PlayersHouse_2F/scripts.pory"
 	setvar VAR_MAP_SCENE_PLAYERHOUSE_2F, 1
+# 119 "data/maps/PalletTown_PlayersHouse_2F/scripts.pory"
+	setvar VAR_0x4100, 1
 	return
 
 

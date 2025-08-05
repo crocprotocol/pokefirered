@@ -306,7 +306,11 @@
 #define VAR_0x40FE                 0x40FE
 #define VAR_0x40FF                 0x40FF
 
-#define VARS_END                   0x40FF
+#define VAR_0x4100                                                             0x4100
+#define VAR_MAP_SCENE_RIVAL_HOUSE_BLUE_MOM                                     0x4101
+
+
+#define VARS_END                   0x4100
 #define VARS_COUNT                 (VARS_END - VARS_START + 1)
 
 #define SPECIAL_VARS_START         0x8000

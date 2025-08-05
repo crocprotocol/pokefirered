@@ -116,4 +116,5 @@ script PalletTown_PlayersHouse_2F_EventScript_MomShake {
 	special(ShakeScreen)
 	waitstate
 	setvar(VAR_MAP_SCENE_PLAYERHOUSE_2F, 1)
+	setvar(VAR_0x4100, 1)
 }

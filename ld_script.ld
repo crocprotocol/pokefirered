@@ -965,6 +965,9 @@ SECTIONS {
         sound/songs/midi/mus_teachy_tv_menu.o(.rodata);
         sound/songs/se_lisa.o(.rodata);
         sound/songs/se_lisa_2.o(.rodata);
+        sound/songs/midi/mus_desert_storm.o(.rodata);
+        sound/songs/midi/mus_midnas_theme.o(.rodata);
+        sound/songs/midi/mus_legend_dragon.o(.rodata);
     } > ROM =0
 
     lib_rodata :
