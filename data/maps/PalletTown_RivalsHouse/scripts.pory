@@ -205,6 +205,7 @@ script PalletTown_RivalsHouse_EventScript_MomLecture {
 	msgbox(format("You need to be more responsible or you'll never amount to anything!"))
 	msgbox(format("Please don't forget to give this to gramps, at least."))
 	applymovement(3, MomGiveMovement)
+	waitmovement(0)
 	playfanfare(MUS_OBTAIN_KEY_ITEM)
 	giveitem_msg(format("{PLAYER} received OAK'S PARCEL from MOM."), ITEM_OAKS_PARCEL)
 	setvar(VAR_0x4100, 2)

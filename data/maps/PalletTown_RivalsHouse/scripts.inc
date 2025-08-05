@@ -409,35 +409,37 @@ PalletTown_RivalsHouse_EventScript_MomLecture_1:
 # 207 "data/maps/PalletTown_RivalsHouse/scripts.pory"
 	applymovement 3, MomGiveMovement
 # 208 "data/maps/PalletTown_RivalsHouse/scripts.pory"
-	playfanfare MUS_OBTAIN_KEY_ITEM
+	waitmovement 0
 # 209 "data/maps/PalletTown_RivalsHouse/scripts.pory"
-	giveitem_msg PalletTown_RivalsHouse_EventScript_MomLecture_Text_5, ITEM_OAKS_PARCEL
+	playfanfare MUS_OBTAIN_KEY_ITEM
 # 210 "data/maps/PalletTown_RivalsHouse/scripts.pory"
-	setvar VAR_0x4100, 2
+	giveitem_msg PalletTown_RivalsHouse_EventScript_MomLecture_Text_5, ITEM_OAKS_PARCEL
 # 211 "data/maps/PalletTown_RivalsHouse/scripts.pory"
-	setvar VAR_MAP_SCENE_RIVAL_HOUSE_BLUE_MOM, 1
+	setvar VAR_0x4100, 2
 # 212 "data/maps/PalletTown_RivalsHouse/scripts.pory"
+	setvar VAR_MAP_SCENE_RIVAL_HOUSE_BLUE_MOM, 1
+# 213 "data/maps/PalletTown_RivalsHouse/scripts.pory"
 	release
 	end
 
 
 PalletTown_RivalsHouse_OnLoad::
-# 218 "data/maps/PalletTown_RivalsHouse/scripts.pory"
+# 219 "data/maps/PalletTown_RivalsHouse/scripts.pory"
 	compare VAR_0x4100, 1
 	goto_if_eq PalletTown_RivalsHouse_OnLoad_1
 	return
 
 PalletTown_RivalsHouse_OnLoad_1:
-# 219 "data/maps/PalletTown_RivalsHouse/scripts.pory"
+# 220 "data/maps/PalletTown_RivalsHouse/scripts.pory"
 	call PalletTown_RivalsHouse_EventScript_MoveMom
 	return
 
 
-# 223 "data/maps/PalletTown_RivalsHouse/scripts.pory"
-MomGiveMovement:
 # 224 "data/maps/PalletTown_RivalsHouse/scripts.pory"
-	walk_down
+MomGiveMovement:
 # 225 "data/maps/PalletTown_RivalsHouse/scripts.pory"
+	walk_down
+# 226 "data/maps/PalletTown_RivalsHouse/scripts.pory"
 	face_right
 	step_end
 
@@ -477,6 +479,6 @@ PalletTown_RivalsHouse_EventScript_MomLecture_Text_4:
 	.string "gramps, at least.$"
 
 PalletTown_RivalsHouse_EventScript_MomLecture_Text_5:
-# 209 "data/maps/PalletTown_RivalsHouse/scripts.pory"
+# 210 "data/maps/PalletTown_RivalsHouse/scripts.pory"
 	.string "{PLAYER} received OAK'S PARCEL from\n"
 	.string "MOM.$"

@@ -1,5 +1,6 @@
 raw `
 PalletTown_ChaosRoom_MapScripts::
+	.byte 0
 `
 
 script PalletTown_ChaosRoom_EventScript_Ghost{
