@@ -6,10 +6,16 @@ PalletTown_Text_HmmIsThatRight::
 
 PalletTown_Text_OhLookLook::
 	.string "Oh!\n"
-	.string "Look, look!$"
+    .string "Aiyeee!$"
 
 PalletTown_Text_ReadItReadIt::
-	.string "Read it, read it!$"
+	.string "Oh, it's you.\p"
+    .string "Sorry, you scared me.\p"
+    .string "I got beat up by some older\n"
+    .string "guys a week ago.\p"
+    .string "I don't remember what happened.\p"
+    .string "If only I had some POKéMON, then\n"
+    .string "they could have protected me.$"
 
 @ Used by sign
 PalletTown_Text_PressStartToOpenMenu::

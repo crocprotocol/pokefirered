@@ -13,13 +13,18 @@ PalletTown_PlayersHouse_1F_Text_AllGirlsLeaveOakLookingForYou::
     .string "looking for you.$"
 
 PalletTown_PlayersHouse_1F_Text_YouShouldTakeQuickRest::
-    .string "MOM: {PLAYER}!\n"
-    .string "You should take a quick rest.$"
+    .string "{RIVAL} MOM: {PLAYER}!\n"
+    .string "How can your mother let you go out\l"
+    .string "looking so tired like this?!\p"
+    .string "Please, you should take a quick rest.\n"
+    .string "Just stay with me a moment.$"
 
 PalletTown_PlayersHouse_1F_Text_LookingGreatTakeCare::
     .string "MOM: Oh, good! You and your\n"
-    .string "POKéMON are looking great.\l"
-    .string "Take care now!$"
+    .string "POKéMON are looking great.\p"
+    .string "If you see {RIVAL},\n"
+    .string "Tell him I said hello, and that\l"
+    .string "I'm lonely and miss him.$"
 
 PalletTown_PlayersHouse_1F_Text_MovieOnTVFourBoysOnRailroad::
     .string "There's a movie on TV.\n"

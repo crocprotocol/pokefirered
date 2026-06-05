@@ -1366,3 +1366,9 @@ Text_TestMsg::
 
 	.include "data/maps/PalletTown_ChaosRoom/scripts.inc"
 	.include "data/maps/PalletTown_ChaosRoom/text.inc"
+
+	.include "data/maps/OakHouse_B1F/scripts.inc"
+	.include "data/maps/OakHouse_B1F/text.inc"
+
+	.include "data/maps/OakHouse_2F/scripts.inc"
+	.include "data/maps/OakHouse_2F/text.inc"

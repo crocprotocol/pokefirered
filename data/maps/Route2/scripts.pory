@@ -10,3 +10,10 @@ Route2_EventScript_DiglettsCaveSign::
 	msgbox Route2_Text_DiglettsCave, MSGBOX_SIGN
 	end
 `
+script Route2_EventScript_Police {
+	lock
+	faceplayer
+	msgbox(format("This ain't something a kid like you should see."))
+	release
+	end
+}

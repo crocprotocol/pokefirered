@@ -184,9 +184,9 @@ gPikachuIntro_Text_Page3::
     .string "That is our biggest objective.$"
 
 gPikachuIntro_Text_Page4::
-    .string "Our present tale, however,\n"
-    .string "is borne from this objective;\n"
-    .string "which you have thoroughly failed.$"
+    .string "Our present tale, however, is borne\n"
+    .string "from this objective; one which you\n"
+    .string "have thoroughly failed in achieving.\n"
     .string "\n"
     .string "As the boy could not be\n"
     .string "saved from his flame.$"
@@ -194,36 +194,37 @@ gPikachuIntro_Text_Page4::
 
 gPikachuIntro_Text_Page5::
     .string "So, I will immolate in your place,\n"
-    .string "to keep your charge both\n"
+    .string "to temporarily keep your charge both\n"
     .string "safe and warm, and ward against\n"
     .string "the frozen air.$"
 
 
 gPikachuIntro_Text_Page6::
-    .string "From birth, we knew he was\n"
-    .string "supposed to be given a choice:\n"
+    .string "From birth, we knew he was supposed\n"
+    .string "to be given a choice:\n"
     .string "\n"
     .string "To leave everything behind him,\n"
-    .string "and find a new world,\n"
-    .string "abandoning the ones who loved him.\n"
-    .string "for others he may love back.\n"
+    .string "and find a new world, abandoning\n"
+    .string "the ones who loved him. Searching\n"
+    .string "for others he may love back.$"
 
 
 gPikachuIntro_Text_Page7::
-    .string "...\n"
-    .string "...\n"
     .string "Of course, one who is not intimate\n"
     .string "with the nature of love will\n"
-    .string "presume every touch loveless.$"
+    .string "presume every touch loveless.\n"
+    .string "...\n"
+    .string "...$"
 
 gPikachuIntro_Text_Page8::
     .string "Perhaps that is the reason.\n"
+    .string "\n"
     .string "The reason why his choice,\n"
-    .string "his ordained birthright,\n"
+    .string "an ordained birthright,\n"
     .string "failed to chance upon him.$"
 
 gPikachuIntro_Text_Page9::
-    .string "And why instead we watched him\n"
+    .string "And why, instead, we watched him\n"
     .string "horrifically enrapture himself\n"
     .string "with natural order, and by extension,\n"
     .string "the ghosts who hitherto did him haunt.$"
@@ -231,14 +232,14 @@ gPikachuIntro_Text_Page9::
 gPikachuIntro_Text_Page10::
     .string "For you see, there exists comfort\n"
     .string "amongst the damned, forever grounded;\n"
-    .string "even if he himself was meant to rise.\n"
+    .string "even if he himself was set to rise.\n"
     .string "$"
 
 
 gPikachuIntro_Text_Page11::
     .string "And so, when that time did arrive,\n"
-    .string "he found that the\n"
-    .string "Earth had risen with him.\n"
+    .string "he found that the Earth had risen with\n"
+    .string "him.\n"
     .string "$"
 
 
@@ -251,8 +252,8 @@ gPikachuIntro_Text_Page12::
 gPikachuIntro_Text_Page13::
     .string "If you had the chance to leave behind\n"
     .string "everyone you loved, who loved you, to\n"
-    .string "start all over, to fish for a place\n"
-    .string "with people who might call you king.$"
+    .string "start all over, and seek out a place\n"
+    .string "where people looked to you as king.$"
 
 gPikachuIntro_Text_Page14::
     .string "...Would you fledge the nest?$"

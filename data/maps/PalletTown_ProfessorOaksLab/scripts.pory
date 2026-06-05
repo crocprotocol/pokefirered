@@ -1142,6 +1142,8 @@ PalletTown_ProfessorOaksLab_EventScript_ChoseStarter::
 
 EventScript_GiveNicknameToStarter::
 	setvar VAR_0x8004, 0
+	setvar VAR_MAP_SCENE_RIVAL_HOUSE_BLUE_MOM, 2
+	setvar VAR_MAP_SCENE_PALLET_TOWN_PROFESSOR_OAKS_LAB, 1
 	call EventScript_ChangePokemonNickname
 	end
 

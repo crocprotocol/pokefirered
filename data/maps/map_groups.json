@@ -320,7 +320,9 @@
     "ViridianCity_Mart",
     "ViridianCity_PokemonCenter_1F",
     "ViridianCity_PokemonCenter_2F",
-    "OakHouse"
+    "OakHouse",
+    "OakHouse_B1F",
+    "OakHouse_2F"
   ],
   "gMapGroup_IndoorPewter": [
     "PewterCity_Museum_1F",

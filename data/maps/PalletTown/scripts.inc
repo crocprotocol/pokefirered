@@ -965,55 +965,63 @@ NicknamePartyMon::
 # 491 "data/maps/PalletTown/scripts.pory"
 	compare VAR_RESULT, YES
 	goto_if_eq NicknamePartyMon_1
-# 495 "data/maps/PalletTown/scripts.pory"
+# 498 "data/maps/PalletTown/scripts.pory"
 	waitmessage
-# 496 "data/maps/PalletTown/scripts.pory"
+# 499 "data/maps/PalletTown/scripts.pory"
+	setvar VAR_MAP_SCENE_RIVAL_HOUSE_BLUE_MOM, 2
+# 500 "data/maps/PalletTown/scripts.pory"
+	setvar VAR_MAP_SCENE_PALLET_TOWN_PROFESSOR_OAKS_LAB, 1
+# 501 "data/maps/PalletTown/scripts.pory"
 	release
 	end
 
 NicknamePartyMon_1:
 # 492 "data/maps/PalletTown/scripts.pory"
 	call EventScript_GiveNicknameToStarter
+# 493 "data/maps/PalletTown/scripts.pory"
+	setvar VAR_MAP_SCENE_RIVAL_HOUSE_BLUE_MOM, 2
+# 494 "data/maps/PalletTown/scripts.pory"
+	setvar VAR_MAP_SCENE_PALLET_TOWN_PROFESSOR_OAKS_LAB, 1
 	return
 
 
 PalletTown_EventScript_MareepRelax::
-# 504 "data/maps/PalletTown/scripts.pory"
-	lock
-# 505 "data/maps/PalletTown/scripts.pory"
-	faceplayer
-# 506 "data/maps/PalletTown/scripts.pory"
-	playmoncry SPECIES_MAREEP, CRY_MODE_NORMAL
-# 507 "data/maps/PalletTown/scripts.pory"
-	textcolor NPC_TEXT_COLOR_MON
-# 508 "data/maps/PalletTown/scripts.pory"
-	msgbox PalletTown_EventScript_MareepRelax_Text_0
 # 509 "data/maps/PalletTown/scripts.pory"
-	waitmessage
+	lock
 # 510 "data/maps/PalletTown/scripts.pory"
+	faceplayer
+# 511 "data/maps/PalletTown/scripts.pory"
+	playmoncry SPECIES_MAREEP, CRY_MODE_NORMAL
+# 512 "data/maps/PalletTown/scripts.pory"
+	textcolor NPC_TEXT_COLOR_MON
+# 513 "data/maps/PalletTown/scripts.pory"
+	msgbox PalletTown_EventScript_MareepRelax_Text_0
+# 514 "data/maps/PalletTown/scripts.pory"
+	waitmessage
+# 515 "data/maps/PalletTown/scripts.pory"
 	release
 	end
 
 
 PalletTown_EventScript_Pikachu::
-# 516 "data/maps/PalletTown/scripts.pory"
-	lock
-# 517 "data/maps/PalletTown/scripts.pory"
-	faceplayer
-# 518 "data/maps/PalletTown/scripts.pory"
-	playmoncry SPECIES_PIKACHU, CRY_MODE_NORMAL
-# 519 "data/maps/PalletTown/scripts.pory"
-	msgbox PalletTown_EventScript_Pikachu_Text_0
-# 520 "data/maps/PalletTown/scripts.pory"
-	waitmessage
 # 521 "data/maps/PalletTown/scripts.pory"
+	lock
+# 522 "data/maps/PalletTown/scripts.pory"
+	faceplayer
+# 523 "data/maps/PalletTown/scripts.pory"
+	playmoncry SPECIES_PIKACHU, CRY_MODE_NORMAL
+# 524 "data/maps/PalletTown/scripts.pory"
+	msgbox PalletTown_EventScript_Pikachu_Text_0
+# 525 "data/maps/PalletTown/scripts.pory"
+	waitmessage
+# 526 "data/maps/PalletTown/scripts.pory"
 	release
 	end
 
 
 PalletTown_EventScript_Mareep_Text_0:
 # 449 "data/maps/PalletTown/scripts.pory"
-	.string "MAREEP is ready.$"
+	.string "LENORE is ready.$"
 
 PalletTown_EventScript_Mareep_Text_1:
 # 451 "data/maps/PalletTown/scripts.pory"
@@ -1033,12 +1041,12 @@ PalletTown_EventScript_Mareep_Text_4:
 
 NicknamePartyMon_Text_0:
 # 489 "data/maps/PalletTown/scripts.pory"
-	.string "Give MAREEP a nickname?$"
+	.string "Rename the nameless, forevermore?$"
 
 PalletTown_EventScript_MareepRelax_Text_0:
-# 508 "data/maps/PalletTown/scripts.pory"
+# 513 "data/maps/PalletTown/scripts.pory"
 	.string "Baaaa!$"
 
 PalletTown_EventScript_Pikachu_Text_0:
-# 519 "data/maps/PalletTown/scripts.pory"
+# 524 "data/maps/PalletTown/scripts.pory"
 	.string "Chuuu!$"

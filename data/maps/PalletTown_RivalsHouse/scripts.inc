@@ -67,7 +67,7 @@ PalletTown_RivalsHouse_EventScript_Daisy::
 # 34 "data/maps/PalletTown_RivalsHouse/scripts.pory"
 	goto_if_eq VAR_MAP_SCENE_PALLET_TOWN_RIVALS_HOUSE, 1, PalletTown_RivalsHouse_EventScript_GiveTownMap
 # 35 "data/maps/PalletTown_RivalsHouse/scripts.pory"
-	goto_if_ge VAR_MAP_SCENE_PALLET_TOWN_PROFESSOR_OAKS_LAB, 1, PalletTown_RivalsHouse_EventScript_HeardBattledRival
+	goto_if_ge VAR_MAP_SCENE_PALLET_TOWN_PROFESSOR_OAKS_LAB, 2, PalletTown_RivalsHouse_Text_HiBrothersAtLab
 # 36 "data/maps/PalletTown_RivalsHouse/scripts.pory"
 	msgbox PalletTown_RivalsHouse_Text_HiBrothersAtLab
 # 37 "data/maps/PalletTown_RivalsHouse/scripts.pory"
@@ -358,6 +358,18 @@ PalletTown_RivalsHouse_EventScript_Mother::
 # 184 "data/maps/PalletTown_RivalsHouse/scripts.pory"
 	compare VAR_MAP_SCENE_RIVAL_HOUSE_BLUE_MOM, 1
 	goto_if_eq PalletTown_RivalsHouse_EventScript_Mother_2
+# 190 "data/maps/PalletTown_RivalsHouse/scripts.pory"
+	compare VAR_MAP_SCENE_RIVAL_HOUSE_BLUE_MOM, 2
+	goto_if_eq PalletTown_RivalsHouse_EventScript_Mother_3
+# 198 "data/maps/PalletTown_RivalsHouse/scripts.pory"
+	compare VAR_MAP_SCENE_RIVAL_HOUSE_BLUE_MOM, 3
+	goto_if_eq PalletTown_RivalsHouse_EventScript_Mother_4
+# 213 "data/maps/PalletTown_RivalsHouse/scripts.pory"
+	compare VAR_MAP_SCENE_RIVAL_HOUSE_BLUE_MOM, 4
+	goto_if_eq PalletTown_RivalsHouse_EventScript_Mother_5
+# 229 "data/maps/PalletTown_RivalsHouse/scripts.pory"
+	compare VAR_MAP_SCENE_RIVAL_HOUSE_BLUE_MOM, 5
+	goto_if_eq PalletTown_RivalsHouse_EventScript_Mother_6
 	return
 
 PalletTown_RivalsHouse_EventScript_Mother_1:
@@ -376,72 +388,188 @@ PalletTown_RivalsHouse_EventScript_Mother_2:
 	release
 	end
 
+PalletTown_RivalsHouse_EventScript_Mother_3:
+# 191 "data/maps/PalletTown_RivalsHouse/scripts.pory"
+	msgbox PalletTown_RivalsHouse_EventScript_Mother_Text_3
+# 192 "data/maps/PalletTown_RivalsHouse/scripts.pory"
+	msgbox PalletTown_RivalsHouse_EventScript_Mother_Text_4
+# 193 "data/maps/PalletTown_RivalsHouse/scripts.pory"
+	msgbox PalletTown_RivalsHouse_EventScript_Mother_Text_5
+# 194 "data/maps/PalletTown_RivalsHouse/scripts.pory"
+	msgbox PalletTown_RivalsHouse_EventScript_Mother_Text_6
+# 195 "data/maps/PalletTown_RivalsHouse/scripts.pory"
+	release
+	end
+
+PalletTown_RivalsHouse_EventScript_Mother_4:
+# 199 "data/maps/PalletTown_RivalsHouse/scripts.pory"
+	msgbox PalletTown_RivalsHouse_EventScript_Mother_Text_7
+# 200 "data/maps/PalletTown_RivalsHouse/scripts.pory"
+	msgbox PalletTown_RivalsHouse_EventScript_Mother_Text_8
+# 201 "data/maps/PalletTown_RivalsHouse/scripts.pory"
+	msgbox PalletTown_RivalsHouse_EventScript_Mother_Text_9
+# 202 "data/maps/PalletTown_RivalsHouse/scripts.pory"
+	msgbox PalletTown_RivalsHouse_EventScript_Mother_Text_10
+# 203 "data/maps/PalletTown_RivalsHouse/scripts.pory"
+	msgbox PalletTown_RivalsHouse_EventScript_Mother_Text_11
+# 204 "data/maps/PalletTown_RivalsHouse/scripts.pory"
+	msgbox PalletTown_RivalsHouse_EventScript_Mother_Text_12
+# 205 "data/maps/PalletTown_RivalsHouse/scripts.pory"
+	msgbox PalletTown_RivalsHouse_EventScript_Mother_Text_13
+# 206 "data/maps/PalletTown_RivalsHouse/scripts.pory"
+	msgbox PalletTown_RivalsHouse_EventScript_Mother_Text_14
+# 207 "data/maps/PalletTown_RivalsHouse/scripts.pory"
+	msgbox PalletTown_RivalsHouse_EventScript_Mother_Text_15
+# 208 "data/maps/PalletTown_RivalsHouse/scripts.pory"
+	msgbox PalletTown_RivalsHouse_EventScript_Mother_Text_16
+# 209 "data/maps/PalletTown_RivalsHouse/scripts.pory"
+	setvar VAR_MAP_SCENE_RIVAL_HOUSE_BLUE_MOM, 4
+# 210 "data/maps/PalletTown_RivalsHouse/scripts.pory"
+	release
+	end
+
+PalletTown_RivalsHouse_EventScript_Mother_5:
+# 214 "data/maps/PalletTown_RivalsHouse/scripts.pory"
+	msgbox PalletTown_RivalsHouse_EventScript_Mother_Text_17
+# 215 "data/maps/PalletTown_RivalsHouse/scripts.pory"
+	msgbox PalletTown_RivalsHouse_EventScript_Mother_Text_18
+# 216 "data/maps/PalletTown_RivalsHouse/scripts.pory"
+	msgbox PalletTown_RivalsHouse_EventScript_Mother_Text_19
+# 217 "data/maps/PalletTown_RivalsHouse/scripts.pory"
+	msgbox PalletTown_RivalsHouse_EventScript_Mother_Text_20
+# 218 "data/maps/PalletTown_RivalsHouse/scripts.pory"
+	msgbox PalletTown_RivalsHouse_EventScript_Mother_Text_21
+# 219 "data/maps/PalletTown_RivalsHouse/scripts.pory"
+	msgbox PalletTown_RivalsHouse_EventScript_Mother_Text_22
+# 220 "data/maps/PalletTown_RivalsHouse/scripts.pory"
+	msgbox PalletTown_RivalsHouse_EventScript_Mother_Text_23
+# 221 "data/maps/PalletTown_RivalsHouse/scripts.pory"
+	msgbox PalletTown_RivalsHouse_EventScript_Mother_Text_24
+# 222 "data/maps/PalletTown_RivalsHouse/scripts.pory"
+	msgbox PalletTown_RivalsHouse_EventScript_Mother_Text_25
+# 223 "data/maps/PalletTown_RivalsHouse/scripts.pory"
+	msgbox PalletTown_RivalsHouse_EventScript_Mother_Text_26
+# 224 "data/maps/PalletTown_RivalsHouse/scripts.pory"
+	msgbox PalletTown_RivalsHouse_EventScript_Mother_Text_27
+# 225 "data/maps/PalletTown_RivalsHouse/scripts.pory"
+	setvar VAR_MAP_SCENE_RIVAL_HOUSE_BLUE_MOM, 5
+# 226 "data/maps/PalletTown_RivalsHouse/scripts.pory"
+	release
+	end
+
+PalletTown_RivalsHouse_EventScript_Mother_6:
+# 230 "data/maps/PalletTown_RivalsHouse/scripts.pory"
+	msgbox PalletTown_RivalsHouse_EventScript_Mother_Text_17
+# 231 "data/maps/PalletTown_RivalsHouse/scripts.pory"
+	msgbox PalletTown_RivalsHouse_EventScript_Mother_Text_18
+# 232 "data/maps/PalletTown_RivalsHouse/scripts.pory"
+	msgbox PalletTown_RivalsHouse_EventScript_Mother_Text_19
+# 233 "data/maps/PalletTown_RivalsHouse/scripts.pory"
+	msgbox PalletTown_RivalsHouse_EventScript_Mother_Text_20
+# 234 "data/maps/PalletTown_RivalsHouse/scripts.pory"
+	msgbox PalletTown_RivalsHouse_EventScript_Mother_Text_21
+# 235 "data/maps/PalletTown_RivalsHouse/scripts.pory"
+	msgbox PalletTown_RivalsHouse_EventScript_Mother_Text_22
+# 236 "data/maps/PalletTown_RivalsHouse/scripts.pory"
+	release
+	end
+
 
 PalletTown_RivalsHouse_EventScript_MoveMom::
-# 193 "data/maps/PalletTown_RivalsHouse/scripts.pory"
+# 242 "data/maps/PalletTown_RivalsHouse/scripts.pory"
 	setobjectxyperm LOCALID_MOM, 9, 2
-# 194 "data/maps/PalletTown_RivalsHouse/scripts.pory"
+# 243 "data/maps/PalletTown_RivalsHouse/scripts.pory"
 	setobjectmovementtype LOCALID_MOM, MOVEMENT_TYPE_FACE_RIGHT
 	return
 
 
 PalletTown_RivalsHouse_EventScript_MomLecture::
-# 199 "data/maps/PalletTown_RivalsHouse/scripts.pory"
+# 248 "data/maps/PalletTown_RivalsHouse/scripts.pory"
 	compare VAR_0x4100, 1
 	goto_if_eq PalletTown_RivalsHouse_EventScript_MomLecture_1
 	return
 
 PalletTown_RivalsHouse_EventScript_MomLecture_1:
-# 200 "data/maps/PalletTown_RivalsHouse/scripts.pory"
+# 249 "data/maps/PalletTown_RivalsHouse/scripts.pory"
 	lock
-# 201 "data/maps/PalletTown_RivalsHouse/scripts.pory"
+# 250 "data/maps/PalletTown_RivalsHouse/scripts.pory"
 	textcolor NPC_TEXT_COLOR_FEMALE
-# 202 "data/maps/PalletTown_RivalsHouse/scripts.pory"
+# 251 "data/maps/PalletTown_RivalsHouse/scripts.pory"
 	msgbox PalletTown_RivalsHouse_EventScript_MomLecture_Text_0
-# 203 "data/maps/PalletTown_RivalsHouse/scripts.pory"
+# 252 "data/maps/PalletTown_RivalsHouse/scripts.pory"
 	msgbox PalletTown_RivalsHouse_EventScript_MomLecture_Text_1
-# 204 "data/maps/PalletTown_RivalsHouse/scripts.pory"
+# 253 "data/maps/PalletTown_RivalsHouse/scripts.pory"
 	msgbox PalletTown_RivalsHouse_EventScript_MomLecture_Text_2
-# 205 "data/maps/PalletTown_RivalsHouse/scripts.pory"
+# 254 "data/maps/PalletTown_RivalsHouse/scripts.pory"
 	msgbox PalletTown_RivalsHouse_EventScript_MomLecture_Text_3
-# 206 "data/maps/PalletTown_RivalsHouse/scripts.pory"
+# 255 "data/maps/PalletTown_RivalsHouse/scripts.pory"
 	msgbox PalletTown_RivalsHouse_EventScript_MomLecture_Text_4
-# 207 "data/maps/PalletTown_RivalsHouse/scripts.pory"
+# 256 "data/maps/PalletTown_RivalsHouse/scripts.pory"
 	applymovement 3, MomGiveMovement
-# 208 "data/maps/PalletTown_RivalsHouse/scripts.pory"
+# 257 "data/maps/PalletTown_RivalsHouse/scripts.pory"
 	waitmovement 0
-# 209 "data/maps/PalletTown_RivalsHouse/scripts.pory"
+# 258 "data/maps/PalletTown_RivalsHouse/scripts.pory"
 	playfanfare MUS_OBTAIN_KEY_ITEM
-# 210 "data/maps/PalletTown_RivalsHouse/scripts.pory"
+# 259 "data/maps/PalletTown_RivalsHouse/scripts.pory"
 	giveitem_msg PalletTown_RivalsHouse_EventScript_MomLecture_Text_5, ITEM_OAKS_PARCEL
-# 211 "data/maps/PalletTown_RivalsHouse/scripts.pory"
+# 260 "data/maps/PalletTown_RivalsHouse/scripts.pory"
 	setvar VAR_0x4100, 2
-# 212 "data/maps/PalletTown_RivalsHouse/scripts.pory"
+# 261 "data/maps/PalletTown_RivalsHouse/scripts.pory"
 	setvar VAR_MAP_SCENE_RIVAL_HOUSE_BLUE_MOM, 1
-# 213 "data/maps/PalletTown_RivalsHouse/scripts.pory"
+# 262 "data/maps/PalletTown_RivalsHouse/scripts.pory"
+	setvar VAR_MAP_SCENE_OAK_HOUSE_AGATHA, 0
+# 263 "data/maps/PalletTown_RivalsHouse/scripts.pory"
+	setvar VAR_MAP_SCENE_VIRIDIAN_CITY_OLD_MAN, 1
+# 264 "data/maps/PalletTown_RivalsHouse/scripts.pory"
 	release
 	end
 
 
 PalletTown_RivalsHouse_OnLoad::
-# 219 "data/maps/PalletTown_RivalsHouse/scripts.pory"
+# 270 "data/maps/PalletTown_RivalsHouse/scripts.pory"
 	compare VAR_0x4100, 1
 	goto_if_eq PalletTown_RivalsHouse_OnLoad_1
 	return
 
 PalletTown_RivalsHouse_OnLoad_1:
-# 220 "data/maps/PalletTown_RivalsHouse/scripts.pory"
+# 271 "data/maps/PalletTown_RivalsHouse/scripts.pory"
 	call PalletTown_RivalsHouse_EventScript_MoveMom
 	return
 
 
-# 224 "data/maps/PalletTown_RivalsHouse/scripts.pory"
+# 275 "data/maps/PalletTown_RivalsHouse/scripts.pory"
 MomGiveMovement:
-# 225 "data/maps/PalletTown_RivalsHouse/scripts.pory"
+# 276 "data/maps/PalletTown_RivalsHouse/scripts.pory"
 	walk_down
-# 226 "data/maps/PalletTown_RivalsHouse/scripts.pory"
+# 277 "data/maps/PalletTown_RivalsHouse/scripts.pory"
 	face_right
 	step_end
+
+PalletTown_RivalsHouse_EventScript_TV::
+# 281 "data/maps/PalletTown_RivalsHouse/scripts.pory"
+	lock
+# 282 "data/maps/PalletTown_RivalsHouse/scripts.pory"
+	textcolor NPC_TEXT_COLOR_FEMALE
+# 283 "data/maps/PalletTown_RivalsHouse/scripts.pory"
+	msgbox PalletTown_RivalsHouse_EventScript_TV_Text_0
+# 284 "data/maps/PalletTown_RivalsHouse/scripts.pory"
+	msgbox PalletTown_RivalsHouse_EventScript_TV_Text_1
+# 285 "data/maps/PalletTown_RivalsHouse/scripts.pory"
+	msgbox PalletTown_RivalsHouse_EventScript_TV_Text_2
+# 286 "data/maps/PalletTown_RivalsHouse/scripts.pory"
+	msgbox PalletTown_RivalsHouse_EventScript_TV_Text_3
+# 287 "data/maps/PalletTown_RivalsHouse/scripts.pory"
+	msgbox PalletTown_RivalsHouse_EventScript_TV_Text_4
+# 288 "data/maps/PalletTown_RivalsHouse/scripts.pory"
+	msgbox PalletTown_RivalsHouse_EventScript_TV_Text_5
+# 289 "data/maps/PalletTown_RivalsHouse/scripts.pory"
+	msgbox PalletTown_RivalsHouse_EventScript_TV_Text_6
+# 290 "data/maps/PalletTown_RivalsHouse/scripts.pory"
+	msgbox PalletTown_RivalsHouse_EventScript_TV_Text_7
+# 291 "data/maps/PalletTown_RivalsHouse/scripts.pory"
+	release
+	end
+
 
 PalletTown_RivalsHouse_EventScript_Mother_Text_0:
 # 180 "data/maps/PalletTown_RivalsHouse/scripts.pory"
@@ -455,30 +583,175 @@ PalletTown_RivalsHouse_EventScript_Mother_Text_2:
 # 186 "data/maps/PalletTown_RivalsHouse/scripts.pory"
 	.string "I don't want a repeat of last time...$"
 
-PalletTown_RivalsHouse_EventScript_MomLecture_Text_0:
+PalletTown_RivalsHouse_EventScript_Mother_Text_3:
+# 191 "data/maps/PalletTown_RivalsHouse/scripts.pory"
+	.string "You and your damned lost sheep.$"
+
+PalletTown_RivalsHouse_EventScript_Mother_Text_4:
+# 192 "data/maps/PalletTown_RivalsHouse/scripts.pory"
+	.string "Maybe one day, you'll learn how to\n"
+	.string "shepherd it.$"
+
+PalletTown_RivalsHouse_EventScript_Mother_Text_5:
+# 193 "data/maps/PalletTown_RivalsHouse/scripts.pory"
+	.string "Of course, that's assuming you could\n"
+	.string "actually be anything more than$"
+
+PalletTown_RivalsHouse_EventScript_Mother_Text_6:
+# 194 "data/maps/PalletTown_RivalsHouse/scripts.pory"
+	.string "useless and cruel.$"
+
+PalletTown_RivalsHouse_EventScript_Mother_Text_7:
+# 199 "data/maps/PalletTown_RivalsHouse/scripts.pory"
+	.string "What is this garbage?$"
+
+PalletTown_RivalsHouse_EventScript_Mother_Text_8:
+# 200 "data/maps/PalletTown_RivalsHouse/scripts.pory"
+	.string "Why are you wasting time,$"
+
+PalletTown_RivalsHouse_EventScript_Mother_Text_9:
+# 201 "data/maps/PalletTown_RivalsHouse/scripts.pory"
+	.string "lugging this trash around?$"
+
+PalletTown_RivalsHouse_EventScript_Mother_Text_10:
 # 202 "data/maps/PalletTown_RivalsHouse/scripts.pory"
+	.string "You're supposed to be$"
+
+PalletTown_RivalsHouse_EventScript_Mother_Text_11:
+# 203 "data/maps/PalletTown_RivalsHouse/scripts.pory"
+	.string "supporting this family.$"
+
+PalletTown_RivalsHouse_EventScript_Mother_Text_12:
+# 204 "data/maps/PalletTown_RivalsHouse/scripts.pory"
+	.string "I need you to get a job,$"
+
+PalletTown_RivalsHouse_EventScript_Mother_Text_13:
+# 205 "data/maps/PalletTown_RivalsHouse/scripts.pory"
+	.string "as soon as possible.$"
+
+PalletTown_RivalsHouse_EventScript_Mother_Text_14:
+# 206 "data/maps/PalletTown_RivalsHouse/scripts.pory"
+	.string "That's why I'm risking our$"
+
+PalletTown_RivalsHouse_EventScript_Mother_Text_15:
+# 207 "data/maps/PalletTown_RivalsHouse/scripts.pory"
+	.string "family's livelihood putting$"
+
+PalletTown_RivalsHouse_EventScript_Mother_Text_16:
+# 208 "data/maps/PalletTown_RivalsHouse/scripts.pory"
+	.string "you through school.$"
+
+PalletTown_RivalsHouse_EventScript_Mother_Text_17:
+# 214 "data/maps/PalletTown_RivalsHouse/scripts.pory"
+	.string "Every day you remind me more$"
+
+PalletTown_RivalsHouse_EventScript_Mother_Text_18:
+# 215 "data/maps/PalletTown_RivalsHouse/scripts.pory"
+	.string "and more of your father.$"
+
+PalletTown_RivalsHouse_EventScript_Mother_Text_19:
+# 216 "data/maps/PalletTown_RivalsHouse/scripts.pory"
+	.string "If I want to get one thing$"
+
+PalletTown_RivalsHouse_EventScript_Mother_Text_20:
+# 217 "data/maps/PalletTown_RivalsHouse/scripts.pory"
+	.string "through to you, it's that$"
+
+PalletTown_RivalsHouse_EventScript_Mother_Text_21:
+# 218 "data/maps/PalletTown_RivalsHouse/scripts.pory"
+	.string "you will never turn out$"
+
+PalletTown_RivalsHouse_EventScript_Mother_Text_22:
+# 219 "data/maps/PalletTown_RivalsHouse/scripts.pory"
+	.string "like your father. Understand?$"
+
+PalletTown_RivalsHouse_EventScript_Mother_Text_23:
+# 220 "data/maps/PalletTown_RivalsHouse/scripts.pory"
+	.string "-sigh-$"
+
+PalletTown_RivalsHouse_EventScript_Mother_Text_24:
+# 221 "data/maps/PalletTown_RivalsHouse/scripts.pory"
+	.string "I liked you best when you$"
+
+PalletTown_RivalsHouse_EventScript_Mother_Text_25:
+# 222 "data/maps/PalletTown_RivalsHouse/scripts.pory"
+	.string "were my baby. If JIRACHI gave$"
+
+PalletTown_RivalsHouse_EventScript_Mother_Text_26:
+# 223 "data/maps/PalletTown_RivalsHouse/scripts.pory"
+	.string "me one wish, then I would wish$"
+
+PalletTown_RivalsHouse_EventScript_Mother_Text_27:
+# 224 "data/maps/PalletTown_RivalsHouse/scripts.pory"
+	.string "you stayed that way forever.$"
+
+PalletTown_RivalsHouse_EventScript_MomLecture_Text_0:
+# 251 "data/maps/PalletTown_RivalsHouse/scripts.pory"
 	.string "You forgot this.$"
 
 PalletTown_RivalsHouse_EventScript_MomLecture_Text_1:
-# 203 "data/maps/PalletTown_RivalsHouse/scripts.pory"
+# 252 "data/maps/PalletTown_RivalsHouse/scripts.pory"
 	.string "I told you about it a hundred times.$"
 
 PalletTown_RivalsHouse_EventScript_MomLecture_Text_2:
-# 204 "data/maps/PalletTown_RivalsHouse/scripts.pory"
+# 253 "data/maps/PalletTown_RivalsHouse/scripts.pory"
 	.string "This is exactly why I don't trust you\n"
 	.string "to be in Saffron City on your own!$"
 
 PalletTown_RivalsHouse_EventScript_MomLecture_Text_3:
-# 205 "data/maps/PalletTown_RivalsHouse/scripts.pory"
+# 254 "data/maps/PalletTown_RivalsHouse/scripts.pory"
 	.string "You need to be more responsible or\n"
 	.string "you'll never amount to anything!$"
 
 PalletTown_RivalsHouse_EventScript_MomLecture_Text_4:
-# 206 "data/maps/PalletTown_RivalsHouse/scripts.pory"
+# 255 "data/maps/PalletTown_RivalsHouse/scripts.pory"
 	.string "Please don't forget to give this to\n"
 	.string "gramps, at least.$"
 
 PalletTown_RivalsHouse_EventScript_MomLecture_Text_5:
-# 210 "data/maps/PalletTown_RivalsHouse/scripts.pory"
+# 259 "data/maps/PalletTown_RivalsHouse/scripts.pory"
 	.string "{PLAYER} received OAK'S PARCEL from\n"
 	.string "MOM.$"
+
+PalletTown_RivalsHouse_EventScript_TV_Text_0:
+# 283 "data/maps/PalletTown_RivalsHouse/scripts.pory"
+	.string "Special Report!\p"
+	.string "The body of an unidentified young\n"
+	.string "lass was found in the forest East of\l"
+	.string "Route 3.$"
+
+PalletTown_RivalsHouse_EventScript_TV_Text_1:
+# 284 "data/maps/PalletTown_RivalsHouse/scripts.pory"
+	.string "Police on the scene report the victim\n"
+	.string "was carrying POKé BALLS.$"
+
+PalletTown_RivalsHouse_EventScript_TV_Text_2:
+# 285 "data/maps/PalletTown_RivalsHouse/scripts.pory"
+	.string "They suspect the crime is related to\n"
+	.string "illicit POKéMON trainer activity.$"
+
+PalletTown_RivalsHouse_EventScript_TV_Text_3:
+# 286 "data/maps/PalletTown_RivalsHouse/scripts.pory"
+	.string "DNA samples have been sent to\n"
+	.string "SILPH CO. for identification purposes.$"
+
+PalletTown_RivalsHouse_EventScript_TV_Text_4:
+# 287 "data/maps/PalletTown_RivalsHouse/scripts.pory"
+	.string "Anyone with knowledge that would\n"
+	.string "help investigators is urged to contact\l"
+	.string "police immediately.$"
+
+PalletTown_RivalsHouse_EventScript_TV_Text_5:
+# 288 "data/maps/PalletTown_RivalsHouse/scripts.pory"
+	.string "Be safe out there, and remember to\n"
+	.string "leave POKéMON training to\l"
+	.string "professionals!$"
+
+PalletTown_RivalsHouse_EventScript_TV_Text_6:
+# 289 "data/maps/PalletTown_RivalsHouse/scripts.pory"
+	.string "This was Lorelei reporting live from\n"
+	.string "Indigo Plateau.$"
+
+PalletTown_RivalsHouse_EventScript_TV_Text_7:
+# 290 "data/maps/PalletTown_RivalsHouse/scripts.pory"
+	.string "Stay frosty!$"

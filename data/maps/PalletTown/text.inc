@@ -5,9 +5,9 @@ PalletTown_Text_OakGrassUnsafeNeedMon::
     .string "Maa.$"
 
 PalletTown_Text_RaisingMonsToo::
-    .string "I'm raising POKéMON, too.\p"
-    .string "When they get strong, they can\n"
-    .string "protect me.$"
+    .string "I don't remember what happened.\p"
+    .string "If only I had some POKéMON, then\n"
+    .string "they could have protected me.$"
 
 PalletTown_Text_CanStoreItemsAndMonsInPC::
     .string "Technology is incredible!\p"

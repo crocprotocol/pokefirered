@@ -1,0 +1,15 @@
+raw`
+OakHouse_MapScripts::
+	.byte 0
+`
+script OakHouse_EventScript_Agatha{
+    lock
+    faceplayer
+    if(var(VAR_MAP_SCENE_OAK_HOUSE_AGATHA) == 0){
+    msgbox(format("Oh, hello {PLAYER}."))
+    msgbox(format("There are some things in the basement I'd like you to take back to your mother."))
+    msgbox(format("Can you at least handle that?"))
+    release
+    end
+    }
+}

@@ -446,7 +446,7 @@ script PalletTown_EventScript_Mareep{
 
 	lock
 	showmonpic(SPECIES_MAREEP, 10, 3)
-	msgbox("MAREEP is ready.")
+	msgbox("LENORE is ready.")
 	waitmessage
 	msgbox("Are you?", MSGBOX_YESNO)
 	if(var(VAR_RESULT) == YES){
@@ -486,13 +486,18 @@ script PalletTown_EventScript_Mareep{
 
 script NicknamePartyMon{
 
-    msgbox("Give MAREEP a nickname?", MSGBOX_YESNO)
+    msgbox("Rename the nameless, forevermore?", MSGBOX_YESNO)
 	hidemonpic
 	if(var(VAR_RESULT) == YES){
 		call(EventScript_GiveNicknameToStarter)
+		setvar(VAR_MAP_SCENE_RIVAL_HOUSE_BLUE_MOM, 2)
+		setvar(VAR_MAP_SCENE_PALLET_TOWN_PROFESSOR_OAKS_LAB, 1)
+
 	}
 	else{
 		waitmessage
+		setvar(VAR_MAP_SCENE_RIVAL_HOUSE_BLUE_MOM, 2)
+		setvar(VAR_MAP_SCENE_PALLET_TOWN_PROFESSOR_OAKS_LAB, 1)
 		release
 		end
 	}

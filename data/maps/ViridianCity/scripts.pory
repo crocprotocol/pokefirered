@@ -2,6 +2,7 @@ raw `
 .set LOCALID_OLD_MAN,      3
 .set LOCALID_TUTORIAL_MAN, 4
 .set LOCALID_WOMAN,        5
+.set LOCALID_POLICEMAN,    10
 
 ViridianCity_MapScripts::
 	map_script MAP_SCRIPT_ON_TRANSITION, ViridianCity_OnTransition
@@ -26,7 +27,7 @@ ViridianCity_EventScript_SetOldManStandingByRoad::
 	return
 
 ViridianCity_EventScript_SetOldManBlockingRoad::
-	setvar VAR_OBJ_GFX_ID_0, OBJ_EVENT_GFX_OLD_MAN_LYING_DOWN
+	setvar VAR_OBJ_GFX_ID_0, OBJ_EVENT_GFX_PIKACHU
 	setobjectxyperm LOCALID_TUTORIAL_MAN, 21, 11
 	setobjectmovementtype LOCALID_TUTORIAL_MAN, MOVEMENT_TYPE_FACE_DOWN
 	return
@@ -241,3 +242,35 @@ ViridianCity_EventScript_DoTutorialBattle::
 	msgbox ViridianCity_Text_WatchThatToLearnBasics
 	return
 `
+
+script ViridianCity_EventScript_PoliceMan{
+	lock
+	faceplayer
+	textcolor(NPC_TEXT_COLOR_MALE)
+	msgbox("cant let you do that starfox")
+	waitmessage
+	applymovement(10, PoliceManFaceLeft)
+	waitmovement(10)
+	release
+	end
+}
+
+script ViridianCity_EventScript_PoliceManTrigger{
+	lock
+	textcolor(NPC_TEXT_COLOR_MALE)
+	msgbox("cant let you do that starfox")
+	waitmessage
+	applymovement(OBJ_EVENT_ID_PLAYER, PlayerWalkDown)
+	waitmovement(OBJ_EVENT_ID_PLAYER)
+	release
+	end
+}
+
+movement PlayerWalkDown{
+	walk_down
+	step_end
+}
+
+movement PoliceManFaceLeft{
+	face_left
+}

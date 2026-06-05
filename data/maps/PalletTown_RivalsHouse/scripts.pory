@@ -32,7 +32,7 @@ PalletTown_RivalsHouse_EventScript_Daisy::
 	goto_if_eq RECEIVED_TOWN_MAP, TRUE, PalletTown_RivalsHouse_EventScript_PleaseGiveMonsRest
 	goto_if_eq VAR_MAP_SCENE_PALLET_TOWN_RIVALS_HOUSE, 2, PalletTown_RivalsHouse_EventScript_ExplainTownMap
 	goto_if_eq VAR_MAP_SCENE_PALLET_TOWN_RIVALS_HOUSE, 1, PalletTown_RivalsHouse_EventScript_GiveTownMap
-	goto_if_ge VAR_MAP_SCENE_PALLET_TOWN_PROFESSOR_OAKS_LAB, 1, PalletTown_RivalsHouse_EventScript_HeardBattledRival
+	goto_if_ge VAR_MAP_SCENE_PALLET_TOWN_PROFESSOR_OAKS_LAB, 2, PalletTown_RivalsHouse_Text_HiBrothersAtLab
 	msgbox PalletTown_RivalsHouse_Text_HiBrothersAtLab
 	closemessage
 	applymovement LOCALID_DAISY, Common_Movement_FaceOriginalDirection
@@ -187,6 +187,55 @@ script PalletTown_RivalsHouse_EventScript_Mother {
 	release
 	end
 	}
+	elif(var(VAR_MAP_SCENE_RIVAL_HOUSE_BLUE_MOM) == 2){
+	msgbox(format("You and your damned lost sheep."))
+	msgbox(format("Maybe one day, you'll learn how to shepherd it."))
+	msgbox(format("Of course, that's assuming you could actually be anything more than"))
+	msgbox(format("useless and cruel."))
+	release
+	end
+	}
+	elif(var(VAR_MAP_SCENE_RIVAL_HOUSE_BLUE_MOM) == 3){
+	msgbox("What is this garbage?")
+	msgbox("Why are you wasting time,")
+	msgbox("lugging this trash around?")
+	msgbox("You're supposed to be")
+	msgbox("supporting this family.")
+	msgbox("I need you to get a job,")
+	msgbox("as soon as possible.")
+	msgbox("That's why I'm risking our")
+	msgbox("family's livelihood putting")
+	msgbox("you through school.")
+	setvar(VAR_MAP_SCENE_RIVAL_HOUSE_BLUE_MOM, 4)
+	release
+	end
+	}
+	elif(var(VAR_MAP_SCENE_RIVAL_HOUSE_BLUE_MOM) == 4){
+	msgbox("Every day you remind me more")
+	msgbox("and more of your father.")
+	msgbox("If I want to get one thing")
+	msgbox("through to you, it's that")
+	msgbox("you will never turn out")
+	msgbox("like your father. Understand?")
+	msgbox("-sigh-")
+	msgbox("I liked you best when you")
+	msgbox("were my baby. If JIRACHI gave")
+	msgbox("me one wish, then I would wish")
+	msgbox("you stayed that way forever.")
+	setvar(VAR_MAP_SCENE_RIVAL_HOUSE_BLUE_MOM, 5)
+	release
+	end
+	}
+	elif(var(VAR_MAP_SCENE_RIVAL_HOUSE_BLUE_MOM) == 5){
+	msgbox("Every day you remind me more")
+	msgbox("and more of your father.")
+	msgbox("If I want to get one thing")
+	msgbox("through to you, it's that")
+	msgbox("you will never turn out")
+	msgbox("like your father. Understand?")
+	release
+	end
+	}
 }
 
 script PalletTown_RivalsHouse_EventScript_MoveMom {
@@ -210,6 +259,8 @@ script PalletTown_RivalsHouse_EventScript_MomLecture {
 	giveitem_msg(format("{PLAYER} received OAK'S PARCEL from MOM."), ITEM_OAKS_PARCEL)
 	setvar(VAR_0x4100, 2)
 	setvar(VAR_MAP_SCENE_RIVAL_HOUSE_BLUE_MOM, 1)
+	setvar(VAR_MAP_SCENE_OAK_HOUSE_AGATHA, 0)
+	setvar(VAR_MAP_SCENE_VIRIDIAN_CITY_OLD_MAN, 1)
 	release
 	end
 	}
@@ -224,4 +275,19 @@ script PalletTown_RivalsHouse_OnLoad {
 movement MomGiveMovement {
 	walk_down
 	face_right
+}
+
+script PalletTown_RivalsHouse_EventScript_TV {
+	lock
+	textcolor(NPC_TEXT_COLOR_FEMALE)
+	msgbox(format("Special Report!\p The body of an unidentified young\n lass was found in the forest East of Route 3."))
+	msgbox(format("Police on the scene report the victim was carrying POKé BALLS."))
+	msgbox(format("They suspect the crime is related to illicit POKéMON trainer activity."))
+	msgbox(format("DNA samples have been sent to\n SILPH CO. for identification purposes."))
+	msgbox(format("Anyone with knowledge that would\n help investigators is urged to contact police immediately."))
+	msgbox(format("Be safe out there, and remember to leave POKéMON training to professionals!"))
+	msgbox(format("This was Lorelei reporting live from Indigo Plateau."))
+	msgbox(format("Stay frosty!"))
+	release
+	end
 }

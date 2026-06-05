@@ -1,0 +1,23 @@
+raw`
+OakHouse_B1F_MapScripts::
+	.byte 0
+`
+script Oak_House_2F_Event_Script_Old_TV {
+    
+}
+
+script Oak_House_2F_Event_Script_Headless_Doll {
+    
+}
+
+script Oak_House_2F_Event_Script_Ramshackled_Table_Set {
+    
+}
+
+script Oak_House_2F_Event_Script_Crusty_Tea_Cup {
+    
+}
+
+script Oak_House_2F_Event_Script_Rickety_Bedframe {
+    
+}
