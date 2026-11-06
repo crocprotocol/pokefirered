@@ -23,10 +23,10 @@ Text_HadQuiteAnExperienceTakeRest::
 	.string "It sounds like you had quite\n"
 	.string "an experience.\p"
 	.string "Maybe you should take a quick\n"
-	.string "rest.$"
+	.string "rest in my bed.$"
 
 Text_MomExplainHPGetPotions::
-	.string "{RIVAL}'s MOM: Oh, good! You and your\n"
+	.string "{RIVAL}'s MOM: Ahhh. You and your\n"
 	.string "POKéMON are looking great.\p"
 	.string "...\p"
 	.string "It's been so long since I divorced\n"

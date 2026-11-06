@@ -3,12 +3,16 @@ PalletTown_ProfessorOaksLab_Text_RivalGrampsIsntAround::
     .string "Gramps isn't around.$"
 
 PalletTown_ProfessorOaksLab_Text_RivalFedUpWithWaiting::
-    .string "{RIVAL}: Gramps!\n"
-    .string "I'm fed up with waiting!$"
+    .string "{RIVAL}: It's okay, {PLAYER}.\p"
+    .string "Now that you're here, we can finally\n"
+    .string "get a Pokédex.$"
 
 PalletTown_ProfessorOaksLab_Text_RivalNoFairWhatAboutMe::
-    .string "{RIVAL}: Hey! Gramps! No fair!\n"
-    .string "What about me?$"
+    .string "{RIVAL}: If you want, we can go\n"
+    .string "looking for another CHARMANDER in\p"
+    .string "ROCK TUNNEL.\p"
+    .string "I'll try to get that SQUIRTLE back\n"
+    .string "as well, Professor OAK.$"
 
 PalletTown_ProfessorOaksLab_Text_RivalGoChoosePlayer::
     .string "{RIVAL}: Heh, I don't need to be\n"
@@ -69,25 +73,22 @@ PalletTown_ProfessorOaksLab_Text_RivalTellSisNotToGiveYouMap::
     .string "my place after this!$"
 
 PalletTown_ProfessorOaksLab_Text_OakThreeMonsChooseOne::
-    .string "OAK: {RIVAL}?\n"
-    .string "Let me think…\p"
-    .string "Oh, that's right, I told you to\n"
-    .string "come! Just wait!\p"
-    .string "Here, {PLAYER}.\p"
-    .string "There are three POKéMON here.\p"
-    .string "Haha!\p"
-    .string "The POKéMON are held inside\n"
-    .string "these POKé BALLS.\p"
-    .string "When I was young, I was a serious\n"
-    .string "POKéMON TRAINER.\p"
-    .string "But now, in my old age, I have\n"
-    .string "only these three left.\p"
-    .string "You can have one.\n"
-    .string "Go on, choose!$"
+    .string "OAK: Indeed {RIVAL}.\n"
+    .string "You are quite the ambitious sprout\p"
+    .string "You could learn a thing or two\n"
+    .string "from that, {PLAYER}.\p"
+    .string "Now, normally, I would have given\n"
+    .string "You both a POKéMON, but SQUIRTLE\p"
+    .string "was stolen a few days ago, and well,\n"
+    .string "you know, there's only BULBASAUR,\p"
+    .string "so I went ahead and gave it to\n"
+    .string "{RIVAL}.$"
 
 PalletTown_ProfessorOaksLab_Text_OakBePatientRival::
-    .string "OAK: Be patient, {RIVAL}.\n"
-    .string "You can have one, too!$"
+    .string "OAK: How thoughtful of you, {RIVAL},\n"
+    .string "and I didn't expect you to be so well\p"
+    .string "studied.\p"
+    .string "Even I forget where POKéMON live.$"
 
 PalletTown_ProfessorOaksLab_Text_OakWhichOneWillYouChoose::
     .string "OAK: Now, {PLAYER}.\p"
@@ -354,4 +355,28 @@ PalletTown_ProfessorOaksLab_Text_RivalIllCompleteThePokedex::
     .string "I think I'll try looking around\n"
     .string "ONE ISLAND first…\p"
     .string "Anyways, I'm outta here!$"
+
+PalletTown_ProfessorOaksLab_Text_OakWaiting::
+    .string "OAK: Oh, {PLAYER}, finally!\p"
+    .string "I've been waiting for you all day.\p"
+    .string "You do realize how important today\n"
+    .string "is, right?$"
+
+PalletTown_ProfessorOaksLab_Text_RivalResearch::
+    .string "{RIVAL}: Heh, well, you have to\n"
+    .string "do the research before working on\p"
+    .string "a project as important as filling\n"
+    .string "the POKéDEX.\p"
+    .string "isn't that right, {PLAYER}?$"
+
+PalletTown_ProfessorOaksLab_Text_OakBeOnYourWay::
+    .string "OAK: Ahh, {RIVAL}, you remind me\n"
+    .string "of when I was younger.\p"
+    .string "Well, that's up to you to arrange.\p"
+    .string "Here, take these POKéDEX and be on\n"
+    .string "your way.\p"
+    .string "I don't want to hold you both up\n"
+    .string "any longer.\p"
+    .string "Good luck, {RIVAL} and {PLAYER}, and\n"
+    .string "have fun on your adventures.$"
 

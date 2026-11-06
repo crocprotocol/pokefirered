@@ -1,9 +1,11 @@
 PalletTown_PlayersHouse_1F_Text_AllBoysLeaveOakLookingForYou::
-    .string "MOM: …Right.\n"
-    .string "All boys leave home someday.\l"
-    .string "It said so on TV.\p"
-    .string "Oh, yes. PROF. OAK, next door, was\n"
-    .string "looking for you.$"
+    .string "{RIVAL}'s MOM: Oh wow.\p"
+    .string "{PLAYER}, you are looking very\n"
+    .string "handsome today, like your father.\p"
+    .string "Your mom wasn't too hard on you?\p"
+    .string "If you ever need anything, you can\n"
+    .string "trust me to take care of you.\p"
+    .string "It'll be our little secret.$"
 
 PalletTown_PlayersHouse_1F_Text_AllGirlsLeaveOakLookingForYou::
     .string "MOM: …Right.\n"
@@ -13,11 +15,12 @@ PalletTown_PlayersHouse_1F_Text_AllGirlsLeaveOakLookingForYou::
     .string "looking for you.$"
 
 PalletTown_PlayersHouse_1F_Text_YouShouldTakeQuickRest::
-    .string "{RIVAL} MOM: {PLAYER}!\n"
-    .string "How can your mother let you go out\l"
+    .string "{RIVAL}'s MOM: {PLAYER}!\p"
+    .string "How can your mother let you go out\n"
     .string "looking so tired like this?!\p"
     .string "Please, you should take a quick rest.\n"
-    .string "Just stay with me a moment.$"
+    .string "Just stay with me a moment.\p"
+    .string "I need the company.$"
 
 PalletTown_PlayersHouse_1F_Text_LookingGreatTakeCare::
     .string "MOM: Oh, good! You and your\n"

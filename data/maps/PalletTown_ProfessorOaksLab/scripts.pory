@@ -208,6 +208,9 @@ PalletTown_ProfessorOaksLab_Movement_OakBringDexesToDeskSouth::
 PalletTown_ProfessorOaksLab_ChooseStarterScene::
 	lockall
 	textcolor NPC_TEXT_COLOR_MALE
+	msgbox PalletTown_ProfessorOaksLab_Text_OakWaiting
+	closemessage
+	delay 60
 	applymovement LOCALID_PROF_OAK, PalletTown_ProfessorOaksLab_Movement_OakEnter
 	waitmovement 0
 	removeobject LOCALID_PROF_OAK
@@ -227,10 +230,14 @@ PalletTown_ProfessorOaksLab_ChooseStarterScene::
 	msgbox PalletTown_ProfessorOaksLab_Text_OakThreeMonsChooseOne
 	closemessage
 	delay 30
-	applymovement LOCALID_RIVAL, PalletTown_ProfessorOaksLab_Movement_RivalReact
+	applymovement LOCALID_RIVAL, PalletTown_ProfessorOaksLab_Movement_RivalReact2
 	waitmovement 0
 	msgbox PalletTown_ProfessorOaksLab_Text_RivalNoFairWhatAboutMe
 	msgbox PalletTown_ProfessorOaksLab_Text_OakBePatientRival
+	applymovement LOCALID_RIVAL, PalletTown_ProfessorOaksLab_Movement_RivalReact
+	waitmovement 0
+	msgbox PalletTown_ProfessorOaksLab_Text_RivalResearch
+	msgbox PalletTown_ProfessorOaksLab_Text_OakBeOnYourWay
 	setvar VAR_MAP_SCENE_PALLET_TOWN_PROFESSOR_OAKS_LAB, 2
 	releaseall
 	end
@@ -258,6 +265,11 @@ PalletTown_ProfessorOaksLab_Movement_PlayerEnter::
 PalletTown_ProfessorOaksLab_Movement_RivalReact::
 	walk_in_place_up
 	walk_in_place_up
+	step_end
+
+PalletTown_ProfessorOaksLab_Movement_RivalReact2::
+	walk_in_place_right
+	walk_in_place_right
 	step_end
 
 PalletTown_ProfessorOaksLab_EventScript_LeaveStarterSceneTrigger::
